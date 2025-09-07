@@ -1,0 +1,1001 @@
+CustomerID,Name,Age,Gender,Tenure,Contract,MonthlyCharges,NumOfShipments,ShipmentWeight,OnTimeDelivery,CustomerSatisfaction,DaysSinceLastShipment,SupportTicketsLodged,TotalCharges,Churn
+CUS-0001,Customer 1,69,Male,15,Month-to-month,36.46,30,107.97,1,5,292,6,546.9,0
+CUS-0002,Customer 2,35,Female,61,Two year,42.23,15,24.38,1,1,189,4,2576.03,0
+CUS-0003,Customer 3,53,Male,19,Month-to-month,118.44,48,735.8,0,3,95,2,2250.36,0
+CUS-0004,Customer 4,66,Female,10,Month-to-month,58.77,41,150.57,1,4,291,6,587.7,0
+CUS-0005,Customer 5,41,Female,31,One year,82.84,17,641.57,1,4,186,3,2568.04,1
+CUS-0006,Customer 6,67,Male,34,Month-to-month,54.24,29,651.54,1,4,172,5,1844.16,0
+CUS-0007,Customer 7,47,Male,20,Month-to-month,85.24,31,95.01,1,1,17,5,1704.8,1
+CUS-0008,Customer 8,53,Male,15,Month-to-month,65.55,30,375.59,0,4,167,9,983.25,1
+CUS-0009,Customer 9,19,Male,3,Month-to-month,116.85,46,399.39,1,3,2,8,350.55,0
+CUS-0010,Customer 10,36,Female,39,One year,24.21,23,715.29,1,4,228,5,944.19,1
+CUS-0011,Customer 11,22,Male,27,Month-to-month,94.0,27,431.63,1,3,308,9,2538.0,0
+CUS-0012,Customer 12,18,Male,13,Month-to-month,87.51,38,88.07,0,2,140,0,1137.63,0
+CUS-0013,Customer 13,48,Male,33,Month-to-month,103.74,12,442.79,1,1,313,3,3423.42,1
+CUS-0014,Customer 14,23,Male,20,Month-to-month,64.93,8,79.79,0,3,44,0,1298.6,1
+CUS-0015,Customer 15,52,Male,10,One year,55.79,29,768.19,1,3,26,4,557.9,0
+CUS-0016,Customer 16,27,Male,30,Month-to-month,53.68,23,543.61,1,1,122,0,1610.4,0
+CUS-0017,Customer 17,27,Female,64,Month-to-month,106.76,47,702.41,1,2,265,7,6832.64,1
+CUS-0018,Customer 18,66,Male,54,Month-to-month,115.74,38,247.97,1,2,351,4,6249.96,1
+CUS-0019,Customer 19,26,Male,66,One year,94.19,26,312.11,1,2,70,7,6216.54,1
+CUS-0020,Customer 20,20,Female,8,Month-to-month,31.85,12,503.28,1,4,185,5,254.8,1
+CUS-0021,Customer 21,31,Male,61,Month-to-month,75.51,14,201.16,1,4,25,5,4606.11,0
+CUS-0022,Customer 22,33,Male,6,Month-to-month,118.47,1,229.54,1,2,351,2,710.82,1
+CUS-0023,Customer 23,69,Male,30,Month-to-month,87.41,32,643.68,1,5,72,1,2622.3,1
+CUS-0024,Customer 24,34,Female,18,Month-to-month,55.8,41,307.85,1,2,60,7,1004.4,0
+CUS-0025,Customer 25,62,Male,22,Month-to-month,82.74,1,207.11,1,2,11,9,1820.28,0
+CUS-0026,Customer 26,37,Female,36,Two year,98.64,48,873.45,0,2,296,9,3551.04,0
+CUS-0027,Customer 27,55,Female,23,One year,34.08,15,219.34,1,3,305,2,783.84,0
+CUS-0028,Customer 28,68,Male,58,Month-to-month,95.88,32,775.49,1,3,202,6,5561.04,1
+CUS-0029,Customer 29,27,Male,56,Month-to-month,48.48,6,874.27,1,3,230,4,2714.88,1
+CUS-0030,Customer 30,69,Female,12,Month-to-month,38.1,1,707.04,1,4,222,7,457.2,0
+CUS-0031,Customer 31,18,Male,12,Month-to-month,27.55,19,929.98,1,4,322,6,330.6,0
+CUS-0032,Customer 32,67,Female,4,Month-to-month,62.78,21,585.92,1,2,351,7,251.12,0
+CUS-0033,Customer 33,33,Male,64,Month-to-month,35.08,1,987.16,1,5,149,3,2245.12,0
+CUS-0034,Customer 34,45,Male,13,Month-to-month,53.19,16,51.65,0,3,228,0,691.47,0
+CUS-0035,Customer 35,40,Female,37,Month-to-month,35.96,30,232.03,1,5,20,7,1330.52,0
+CUS-0036,Customer 36,31,Female,66,One year,50.05,42,50.72,1,5,226,0,3303.3,0
+CUS-0037,Customer 37,41,Male,15,Month-to-month,80.51,1,928.46,0,4,234,2,1207.65,1
+CUS-0038,Customer 38,35,Male,56,Month-to-month,105.21,35,70.41,1,5,338,7,5891.76,0
+CUS-0039,Customer 39,36,Female,13,One year,45.78,28,432.12,1,3,46,7,595.14,0
+CUS-0040,Customer 40,52,Female,24,Month-to-month,32.46,22,620.57,0,1,291,2,779.04,0
+CUS-0041,Customer 41,47,Male,24,Two year,60.3,2,885.12,0,1,275,7,1447.2,1
+CUS-0042,Customer 42,21,Male,44,Month-to-month,76.89,12,477.49,1,2,312,0,3383.16,0
+CUS-0043,Customer 43,39,Female,57,Month-to-month,24.3,43,576.71,1,4,58,9,1385.1,0
+CUS-0044,Customer 44,52,Female,16,One year,74.42,7,757.89,1,3,152,5,1190.72,1
+CUS-0045,Customer 45,38,Female,56,Month-to-month,71.57,48,432.52,1,4,6,0,4007.92,0
+CUS-0046,Customer 46,53,Female,52,One year,67.07,16,635.3,0,3,211,7,3487.64,0
+CUS-0047,Customer 47,43,Female,57,Month-to-month,64.61,12,60.82,0,2,266,2,3682.77,1
+CUS-0048,Customer 48,44,Female,56,One year,87.45,40,155.11,0,5,347,9,4897.2,1
+CUS-0049,Customer 49,41,Female,30,Month-to-month,87.25,20,867.48,1,4,258,8,2617.5,0
+CUS-0050,Customer 50,35,Female,69,One year,28.72,12,884.27,1,4,315,4,1981.68,0
+CUS-0051,Customer 51,45,Male,47,Month-to-month,88.67,2,46.58,1,1,7,7,4167.49,1
+CUS-0052,Customer 52,39,Female,3,One year,79.75,1,814.46,1,3,110,1,239.25,0
+CUS-0053,Customer 53,62,Female,7,Two year,60.21,42,913.27,1,2,170,3,421.47,0
+CUS-0054,Customer 54,45,Male,33,Month-to-month,91.72,23,795.75,1,4,162,8,3026.76,0
+CUS-0055,Customer 55,38,Female,39,Month-to-month,44.09,27,372.3,0,5,363,0,1719.51,1
+CUS-0056,Customer 56,62,Female,7,Month-to-month,114.36,8,807.55,1,1,197,2,800.52,0
+CUS-0057,Customer 57,36,Female,56,One year,77.24,7,810.06,1,3,9,1,4325.44,0
+CUS-0058,Customer 58,23,Male,56,One year,56.34,46,574.06,1,2,80,3,3155.04,0
+CUS-0059,Customer 59,30,Female,2,One year,28.9,1,880.42,1,3,300,2,57.8,0
+CUS-0060,Customer 60,52,Female,41,One year,24.29,28,546.44,1,5,27,7,995.89,0
+CUS-0061,Customer 61,30,Female,20,Month-to-month,47.34,27,77.7,1,1,145,4,946.8,0
+CUS-0062,Customer 62,45,Female,32,One year,105.67,43,176.43,1,4,172,5,3381.44,0
+CUS-0063,Customer 63,61,Male,15,Month-to-month,46.89,10,881.45,1,2,180,8,703.35,0
+CUS-0064,Customer 64,51,Male,64,Month-to-month,94.11,48,642.83,1,2,343,4,6023.04,0
+CUS-0065,Customer 65,56,Male,38,One year,59.2,8,38.06,1,1,353,7,2249.6,1
+CUS-0066,Customer 66,69,Male,16,One year,109.33,18,839.93,1,5,44,1,1749.28,0
+CUS-0067,Customer 67,41,Female,9,Two year,118.18,38,555.82,1,3,227,7,1063.62,1
+CUS-0068,Customer 68,36,Male,62,Two year,47.95,47,477.84,1,1,316,0,2972.9,1
+CUS-0069,Customer 69,67,Male,55,Month-to-month,115.88,16,546.5,1,1,3,9,6373.4,1
+CUS-0070,Customer 70,45,Male,61,Month-to-month,33.79,25,117.28,1,1,39,2,2061.19,0
+CUS-0071,Customer 71,60,Female,30,Two year,76.7,22,270.58,0,5,259,8,2301.0,0
+CUS-0072,Customer 72,20,Female,15,One year,97.1,42,55.85,1,5,202,6,1456.5,0
+CUS-0073,Customer 73,47,Female,44,Month-to-month,62.3,12,910.95,1,5,331,5,2741.2,1
+CUS-0074,Customer 74,25,Female,46,Month-to-month,75.34,5,767.05,1,3,48,6,3465.64,0
+CUS-0075,Customer 75,66,Male,46,Month-to-month,75.45,26,325.25,1,1,254,1,3470.7,0
+CUS-0076,Customer 76,36,Female,17,Month-to-month,89.44,12,710.96,0,5,226,0,1520.48,0
+CUS-0077,Customer 77,60,Male,46,Month-to-month,31.19,6,952.38,1,2,282,1,1434.74,1
+CUS-0078,Customer 78,36,Female,56,One year,20.07,26,930.77,1,1,186,5,1123.92,1
+CUS-0079,Customer 79,65,Male,3,One year,26.45,3,203.27,1,5,117,1,79.35,0
+CUS-0080,Customer 80,60,Male,2,Month-to-month,22.64,4,787.65,1,4,349,2,45.28,0
+CUS-0081,Customer 81,38,Male,39,Month-to-month,71.27,27,618.27,1,5,362,1,2779.53,1
+CUS-0082,Customer 82,48,Male,60,Month-to-month,111.84,37,623.31,1,1,36,2,6710.4,0
+CUS-0083,Customer 83,46,Male,2,Two year,64.06,8,465.15,1,1,350,2,128.12,1
+CUS-0084,Customer 84,48,Male,47,Month-to-month,94.64,25,798.83,0,1,317,3,4448.08,0
+CUS-0085,Customer 85,37,Male,62,Month-to-month,82.29,11,849.87,1,4,281,0,5101.98,1
+CUS-0086,Customer 86,69,Female,42,Month-to-month,60.4,27,743.0,1,2,234,4,2536.8,0
+CUS-0087,Customer 87,58,Female,36,One year,88.11,15,331.39,1,3,274,9,3171.96,0
+CUS-0088,Customer 88,40,Female,20,Two year,84.42,36,702.57,0,2,207,1,1688.4,1
+CUS-0089,Customer 89,30,Female,13,Two year,26.18,6,80.22,1,4,302,6,340.34,0
+CUS-0090,Customer 90,48,Female,2,One year,67.13,39,142.4,0,3,21,3,134.26,0
+CUS-0091,Customer 91,43,Male,53,Two year,87.64,27,95.12,0,3,72,5,4644.92,1
+CUS-0092,Customer 92,57,Male,50,Month-to-month,70.19,20,948.82,1,2,139,7,3509.5,1
+CUS-0093,Customer 93,23,Male,58,Two year,34.58,12,929.37,1,3,317,6,2005.64,1
+CUS-0094,Customer 94,44,Male,5,Month-to-month,32.9,36,56.14,1,5,347,5,164.5,1
+CUS-0095,Customer 95,51,Female,69,Month-to-month,108.67,1,119.06,1,2,305,6,7498.23,1
+CUS-0096,Customer 96,27,Female,9,Month-to-month,82.89,48,455.94,1,2,38,4,746.01,1
+CUS-0097,Customer 97,19,Male,15,Month-to-month,49.17,33,459.64,1,1,31,2,737.55,1
+CUS-0098,Customer 98,21,Male,23,One year,83.81,31,993.43,1,3,55,8,1927.63,0
+CUS-0099,Customer 99,48,Female,56,One year,69.7,38,442.19,1,1,101,8,3903.2,0
+CUS-0100,Customer 100,68,Male,44,Month-to-month,112.18,44,134.6,0,3,335,7,4935.92,0
+CUS-0101,Customer 101,31,Female,34,Month-to-month,62.59,32,973.36,1,1,282,3,2128.06,1
+CUS-0102,Customer 102,37,Male,51,Month-to-month,23.53,9,16.9,1,4,273,3,1200.03,0
+CUS-0103,Customer 103,60,Male,14,Month-to-month,97.5,28,456.74,1,4,36,1,1365.0,1
+CUS-0104,Customer 104,50,Male,63,Month-to-month,34.03,23,15.96,1,4,212,8,2143.89,0
+CUS-0105,Customer 105,31,Male,54,Month-to-month,37.25,48,841.21,0,1,242,8,2011.5,0
+CUS-0106,Customer 106,40,Male,14,One year,85.7,44,746.1,1,3,338,3,1199.8,1
+CUS-0107,Customer 107,27,Male,4,One year,28.47,23,14.57,0,1,278,6,113.88,0
+CUS-0108,Customer 108,62,Female,65,One year,59.64,26,161.24,0,3,146,0,3876.6,0
+CUS-0109,Customer 109,39,Male,34,One year,114.51,4,234.86,1,1,145,8,3893.34,1
+CUS-0110,Customer 110,62,Male,9,One year,45.9,28,171.07,0,2,150,3,413.1,0
+CUS-0111,Customer 111,26,Female,48,Month-to-month,23.12,36,839.4,1,1,306,9,1109.76,1
+CUS-0112,Customer 112,65,Female,22,One year,90.82,39,409.3,1,4,252,8,1998.04,0
+CUS-0113,Customer 113,61,Male,66,Month-to-month,96.6,7,231.79,1,5,349,2,6375.6,0
+CUS-0114,Customer 114,62,Male,57,Month-to-month,110.01,19,414.48,0,4,81,8,6270.57,0
+CUS-0115,Customer 115,41,Male,33,Month-to-month,45.59,41,331.65,0,3,285,5,1504.47,0
+CUS-0116,Customer 116,67,Male,68,One year,47.2,17,343.77,1,2,11,5,3209.6,0
+CUS-0117,Customer 117,45,Male,6,Month-to-month,49.97,41,769.91,0,5,62,1,299.82,0
+CUS-0118,Customer 118,31,Female,4,Month-to-month,55.71,26,196.77,1,5,29,5,222.84,1
+CUS-0119,Customer 119,62,Male,6,Month-to-month,31.18,3,346.5,0,2,346,1,187.08,0
+CUS-0120,Customer 120,66,Male,67,One year,115.09,11,828.29,1,1,311,5,7711.03,1
+CUS-0121,Customer 121,44,Female,35,Month-to-month,45.04,48,831.36,0,2,315,8,1576.4,0
+CUS-0122,Customer 122,57,Female,3,One year,98.37,17,325.76,0,5,121,0,295.11,0
+CUS-0123,Customer 123,34,Male,62,Month-to-month,69.51,6,436.05,1,4,191,0,4309.62,0
+CUS-0124,Customer 124,59,Female,40,Month-to-month,58.11,4,738.77,1,3,301,0,2324.4,0
+CUS-0125,Customer 125,69,Female,68,Month-to-month,96.38,19,226.21,1,1,259,0,6553.84,0
+CUS-0126,Customer 126,44,Female,29,One year,66.06,9,888.12,0,1,144,5,1915.74,1
+CUS-0127,Customer 127,48,Female,4,Month-to-month,50.04,47,696.46,1,3,249,8,200.16,0
+CUS-0128,Customer 128,28,Female,63,One year,117.33,37,938.2,1,2,52,5,7391.79,1
+CUS-0129,Customer 129,37,Male,18,Month-to-month,28.45,25,658.35,1,4,131,6,512.1,1
+CUS-0130,Customer 130,63,Female,37,Month-to-month,70.4,23,384.48,0,3,114,3,2604.8,0
+CUS-0131,Customer 131,43,Female,58,Month-to-month,114.33,41,690.17,1,4,20,6,6631.14,1
+CUS-0132,Customer 132,47,Male,52,One year,34.07,38,104.41,1,5,111,5,1771.64,0
+CUS-0133,Customer 133,55,Male,23,Month-to-month,112.01,10,360.54,1,2,154,7,2576.23,1
+CUS-0134,Customer 134,44,Female,11,One year,54.86,21,462.8,0,5,179,9,603.46,0
+CUS-0135,Customer 135,32,Female,67,Month-to-month,98.39,22,209.91,1,2,209,0,6592.13,1
+CUS-0136,Customer 136,18,Male,37,Two year,88.03,5,929.64,1,2,287,7,3257.11,1
+CUS-0137,Customer 137,26,Male,70,One year,56.05,21,993.28,1,4,234,7,3923.5,0
+CUS-0138,Customer 138,21,Male,12,Month-to-month,112.9,43,151.07,1,4,267,9,1354.8,1
+CUS-0139,Customer 139,22,Female,10,Month-to-month,96.71,43,705.48,1,2,280,1,967.1,0
+CUS-0140,Customer 140,45,Male,61,Month-to-month,51.64,8,478.79,0,3,202,7,3150.04,0
+CUS-0141,Customer 141,60,Female,47,Month-to-month,93.86,21,306.17,1,3,168,5,4411.42,0
+CUS-0142,Customer 142,35,Male,69,Month-to-month,36.25,12,999.21,0,1,126,4,2501.25,0
+CUS-0143,Customer 143,29,Female,51,One year,103.01,22,57.5,1,5,276,9,5253.51,0
+CUS-0144,Customer 144,23,Male,67,One year,113.09,16,265.76,1,1,213,0,7577.03,0
+CUS-0145,Customer 145,47,Female,39,One year,103.12,45,429.78,0,1,116,4,4021.68,0
+CUS-0146,Customer 146,29,Male,28,Two year,77.28,22,705.2,0,3,225,1,2163.84,0
+CUS-0147,Customer 147,34,Female,6,One year,80.0,42,70.5,0,4,293,5,480.0,0
+CUS-0148,Customer 148,63,Male,4,Month-to-month,92.11,37,157.0,0,3,150,6,368.44,0
+CUS-0149,Customer 149,29,Male,47,Two year,99.79,4,716.52,0,5,97,7,4690.13,0
+CUS-0150,Customer 150,19,Male,51,One year,53.19,8,907.3,0,2,353,7,2712.69,1
+CUS-0151,Customer 151,60,Male,54,Month-to-month,61.19,44,145.15,0,5,133,2,3304.26,1
+CUS-0152,Customer 152,62,Male,47,Month-to-month,69.87,48,472.09,0,4,245,8,3283.89,1
+CUS-0153,Customer 153,26,Male,62,Month-to-month,109.08,21,57.85,0,2,183,2,6762.96,0
+CUS-0154,Customer 154,60,Male,22,Month-to-month,40.44,6,951.81,1,2,282,8,889.68,0
+CUS-0155,Customer 155,60,Male,35,Month-to-month,68.24,42,510.18,0,5,208,1,2388.4,0
+CUS-0156,Customer 156,34,Male,71,One year,79.82,8,453.7,0,4,120,1,5667.22,1
+CUS-0157,Customer 157,66,Male,21,Two year,60.0,22,319.64,1,5,224,6,1260.0,1
+CUS-0158,Customer 158,47,Male,58,Month-to-month,37.79,13,153.78,0,5,87,2,2191.82,0
+CUS-0159,Customer 159,32,Male,6,Month-to-month,31.21,25,57.63,0,2,70,5,187.26,0
+CUS-0160,Customer 160,68,Female,35,Month-to-month,63.32,19,184.79,1,1,290,8,2216.2,0
+CUS-0161,Customer 161,30,Male,6,Month-to-month,116.15,32,646.04,0,5,360,1,696.9,0
+CUS-0162,Customer 162,28,Female,33,Month-to-month,117.26,40,944.56,1,5,59,8,3869.58,0
+CUS-0163,Customer 163,49,Male,64,Month-to-month,39.02,33,375.22,0,2,49,5,2497.28,0
+CUS-0164,Customer 164,22,Male,54,One year,60.37,12,508.8,1,3,112,2,3259.98,0
+CUS-0165,Customer 165,26,Female,12,Month-to-month,93.01,10,549.59,1,3,314,8,1116.12,1
+CUS-0166,Customer 166,53,Male,59,Month-to-month,84.65,7,198.43,1,2,45,2,4994.35,1
+CUS-0167,Customer 167,26,Male,49,One year,52.25,3,49.56,0,4,348,7,2560.25,0
+CUS-0168,Customer 168,36,Female,62,Month-to-month,58.05,33,878.08,1,4,352,7,3599.1,1
+CUS-0169,Customer 169,60,Male,1,One year,74.05,16,159.39,1,1,25,0,74.05,0
+CUS-0170,Customer 170,46,Female,5,Month-to-month,24.34,43,469.27,1,5,241,7,121.7,1
+CUS-0171,Customer 171,57,Female,14,Month-to-month,59.91,13,476.5,1,5,79,5,838.74,1
+CUS-0172,Customer 172,44,Male,60,One year,44.76,42,581.54,1,5,23,7,2685.6,0
+CUS-0173,Customer 173,58,Female,21,Month-to-month,91.3,17,680.16,1,4,235,0,1917.3,0
+CUS-0174,Customer 174,44,Female,20,Month-to-month,57.8,22,280.45,1,5,216,0,1156.0,1
+CUS-0175,Customer 175,69,Female,5,Month-to-month,46.56,21,112.63,0,4,20,9,232.8,0
+CUS-0176,Customer 176,23,Male,54,One year,37.72,19,36.06,1,3,334,5,2036.88,0
+CUS-0177,Customer 177,60,Male,48,One year,53.29,12,993.94,0,5,196,1,2557.92,0
+CUS-0178,Customer 178,49,Female,31,Two year,103.46,4,507.14,1,4,97,7,3207.26,0
+CUS-0179,Customer 179,34,Female,54,Month-to-month,31.58,42,228.02,1,5,85,6,1705.32,1
+CUS-0180,Customer 180,50,Female,9,Month-to-month,66.43,27,912.83,1,2,301,2,597.87,0
+CUS-0181,Customer 181,49,Male,18,One year,113.27,37,421.21,1,3,1,1,2038.86,0
+CUS-0182,Customer 182,34,Female,71,One year,46.08,13,813.35,1,1,306,4,3271.68,1
+CUS-0183,Customer 183,54,Male,60,Month-to-month,33.36,27,883.69,0,2,193,0,2001.6,0
+CUS-0184,Customer 184,46,Female,29,Two year,100.96,32,891.89,1,3,178,1,2927.84,0
+CUS-0185,Customer 185,60,Female,37,One year,118.48,16,226.0,1,2,52,5,4383.76,0
+CUS-0186,Customer 186,36,Male,44,Month-to-month,30.34,26,888.0,1,4,318,4,1334.96,1
+CUS-0187,Customer 187,38,Female,34,Two year,24.2,5,976.75,1,3,60,7,822.8,0
+CUS-0188,Customer 188,62,Female,32,Month-to-month,48.71,46,301.37,0,2,173,0,1558.72,1
+CUS-0189,Customer 189,67,Male,19,One year,43.92,21,705.72,1,1,55,9,834.48,1
+CUS-0190,Customer 190,30,Male,64,Month-to-month,80.15,40,861.14,1,4,180,3,5129.6,0
+CUS-0191,Customer 191,20,Female,61,Month-to-month,90.51,43,582.2,1,3,154,6,5521.11,0
+CUS-0192,Customer 192,66,Female,7,One year,110.46,48,619.8,1,5,362,8,773.22,1
+CUS-0193,Customer 193,20,Female,2,One year,69.88,37,290.25,0,1,90,8,139.76,1
+CUS-0194,Customer 194,22,Male,33,Month-to-month,28.29,20,903.37,1,5,325,4,933.57,0
+CUS-0195,Customer 195,68,Male,52,One year,104.93,19,836.49,0,4,209,3,5456.36,0
+CUS-0196,Customer 196,37,Female,8,One year,85.83,27,988.46,1,4,357,6,686.64,0
+CUS-0197,Customer 197,65,Male,61,One year,65.35,40,444.78,1,1,168,4,3986.35,0
+CUS-0198,Customer 198,65,Female,49,Month-to-month,88.69,42,630.78,1,3,250,2,4345.81,0
+CUS-0199,Customer 199,40,Male,57,One year,36.85,24,597.15,1,5,51,7,2100.45,0
+CUS-0200,Customer 200,28,Male,31,Month-to-month,66.35,40,70.78,0,2,49,3,2056.85,1
+CUS-0201,Customer 201,40,Male,43,One year,91.66,46,780.02,1,1,174,6,3941.38,1
+CUS-0202,Customer 202,28,Female,54,Month-to-month,73.39,14,691.78,0,4,32,8,3963.06,1
+CUS-0203,Customer 203,24,Female,4,Month-to-month,94.75,43,22.43,1,4,250,4,379.0,1
+CUS-0204,Customer 204,68,Male,10,Month-to-month,76.6,26,982.24,0,4,260,0,766.0,0
+CUS-0205,Customer 205,41,Male,26,One year,86.63,49,703.41,0,2,77,5,2252.38,1
+CUS-0206,Customer 206,59,Male,17,Two year,48.81,47,858.92,1,3,80,3,829.77,1
+CUS-0207,Customer 207,67,Male,18,Month-to-month,87.58,35,784.12,0,5,276,0,1576.44,0
+CUS-0208,Customer 208,51,Male,68,One year,83.04,23,531.83,0,1,17,2,5646.72,0
+CUS-0209,Customer 209,35,Female,31,Month-to-month,68.13,12,852.21,0,3,121,0,2112.03,0
+CUS-0210,Customer 210,60,Male,43,Month-to-month,82.56,18,603.82,1,3,252,7,3550.08,1
+CUS-0211,Customer 211,40,Female,47,Two year,61.6,37,522.61,1,1,231,4,2895.2,0
+CUS-0212,Customer 212,31,Female,44,Two year,116.38,22,181.92,1,3,356,6,5120.72,1
+CUS-0213,Customer 213,40,Female,11,Month-to-month,24.54,25,454.01,0,3,272,2,269.94,0
+CUS-0214,Customer 214,57,Female,62,Month-to-month,110.24,9,185.84,1,5,204,8,6834.88,0
+CUS-0215,Customer 215,66,Female,20,One year,35.08,40,856.54,0,3,213,6,701.6,0
+CUS-0216,Customer 216,42,Male,27,One year,87.73,18,294.99,1,5,364,4,2368.71,1
+CUS-0217,Customer 217,36,Male,14,Month-to-month,30.86,26,614.99,1,1,200,0,432.04,1
+CUS-0218,Customer 218,46,Female,12,Month-to-month,43.07,11,2.57,1,1,221,6,516.84,1
+CUS-0219,Customer 219,65,Female,55,One year,77.7,45,119.19,1,3,360,8,4273.5,0
+CUS-0220,Customer 220,51,Male,37,Month-to-month,27.7,43,417.69,0,1,19,9,1024.9,0
+CUS-0221,Customer 221,51,Male,9,One year,104.18,10,550.21,1,1,263,4,937.62,1
+CUS-0222,Customer 222,59,Male,10,One year,59.1,15,284.01,1,5,339,8,591.0,1
+CUS-0223,Customer 223,57,Male,14,Month-to-month,24.02,4,93.56,0,3,157,5,336.28,0
+CUS-0224,Customer 224,27,Female,41,Month-to-month,48.79,31,427.43,1,3,154,0,2000.39,1
+CUS-0225,Customer 225,31,Male,63,Two year,71.24,12,18.79,1,5,255,2,4488.12,0
+CUS-0226,Customer 226,57,Male,10,Month-to-month,115.75,3,658.96,1,1,193,5,1157.5,0
+CUS-0227,Customer 227,62,Male,25,One year,38.8,16,339.39,1,5,147,3,970.0,0
+CUS-0228,Customer 228,46,Female,60,One year,29.66,6,572.47,1,2,331,7,1779.6,0
+CUS-0229,Customer 229,68,Male,25,Two year,96.11,7,116.45,1,4,357,3,2402.75,0
+CUS-0230,Customer 230,55,Male,56,Month-to-month,108.72,40,306.71,1,4,121,2,6088.32,1
+CUS-0231,Customer 231,48,Female,67,Two year,87.04,1,446.26,1,2,152,3,5831.68,0
+CUS-0232,Customer 232,69,Male,5,Month-to-month,70.13,14,585.11,1,3,240,5,350.65,0
+CUS-0233,Customer 233,52,Male,5,Two year,98.04,45,177.47,1,5,348,1,490.2,1
+CUS-0234,Customer 234,24,Female,21,One year,114.83,36,640.29,1,3,194,3,2411.43,1
+CUS-0235,Customer 235,25,Female,27,Two year,48.3,44,350.8,0,3,352,6,1304.1,1
+CUS-0236,Customer 236,36,Male,55,Month-to-month,58.07,44,826.9,1,5,34,0,3193.85,0
+CUS-0237,Customer 237,57,Female,37,Month-to-month,101.29,28,566.2,1,4,1,3,3747.73,0
+CUS-0238,Customer 238,52,Male,58,One year,96.12,27,280.47,1,3,107,2,5574.96,0
+CUS-0239,Customer 239,28,Female,45,Month-to-month,53.73,43,335.93,0,1,200,3,2417.85,0
+CUS-0240,Customer 240,46,Female,15,Month-to-month,116.98,29,977.99,0,1,84,3,1754.7,0
+CUS-0241,Customer 241,25,Male,60,Month-to-month,68.02,1,111.95,0,1,93,4,4081.2,1
+CUS-0242,Customer 242,25,Female,39,Month-to-month,20.08,16,298.41,1,3,22,5,783.12,1
+CUS-0243,Customer 243,22,Male,16,Month-to-month,117.33,32,774.18,1,3,81,9,1877.28,0
+CUS-0244,Customer 244,69,Male,13,Month-to-month,43.39,3,976.58,0,5,134,4,564.07,0
+CUS-0245,Customer 245,44,Male,8,One year,23.61,42,93.76,0,2,187,7,188.88,1
+CUS-0246,Customer 246,65,Female,32,Month-to-month,29.19,2,286.83,0,3,334,5,934.08,1
+CUS-0247,Customer 247,51,Male,6,Month-to-month,48.77,12,943.84,1,4,280,4,292.62,0
+CUS-0248,Customer 248,58,Female,6,Month-to-month,91.98,5,811.48,1,5,339,8,551.88,0
+CUS-0249,Customer 249,41,Female,44,Month-to-month,118.89,48,607.54,1,3,343,9,5231.16,1
+CUS-0250,Customer 250,33,Female,65,Two year,116.12,27,669.28,1,3,81,2,7547.8,0
+CUS-0251,Customer 251,58,Male,40,Two year,62.2,27,739.41,1,1,320,6,2488.0,0
+CUS-0252,Customer 252,29,Male,53,One year,53.02,43,282.91,1,2,172,8,2810.06,0
+CUS-0253,Customer 253,32,Female,32,Month-to-month,48.24,38,219.41,1,3,276,7,1543.68,1
+CUS-0254,Customer 254,68,Male,41,One year,87.31,34,684.98,1,5,339,8,3579.71,1
+CUS-0255,Customer 255,42,Male,61,Month-to-month,72.48,20,294.56,0,2,26,0,4421.28,0
+CUS-0256,Customer 256,58,Female,21,Month-to-month,69.45,8,328.27,0,3,279,6,1458.45,0
+CUS-0257,Customer 257,67,Male,20,One year,95.49,25,619.87,0,1,273,3,1909.8,0
+CUS-0258,Customer 258,36,Male,52,Month-to-month,115.73,45,283.86,1,1,19,9,6017.96,0
+CUS-0259,Customer 259,59,Female,51,One year,28.0,4,724.83,1,2,126,6,1428.0,0
+CUS-0260,Customer 260,31,Male,33,One year,42.09,49,329.39,0,5,345,8,1388.97,1
+CUS-0261,Customer 261,49,Male,47,Month-to-month,115.29,46,486.6,0,1,19,9,5418.63,0
+CUS-0262,Customer 262,54,Female,16,Two year,25.93,24,69.08,0,4,217,6,414.88,0
+CUS-0263,Customer 263,69,Male,21,Month-to-month,54.64,23,621.3,0,4,262,4,1147.44,1
+CUS-0264,Customer 264,49,Male,43,Month-to-month,108.29,6,273.86,1,5,39,2,4656.47,0
+CUS-0265,Customer 265,47,Male,1,Month-to-month,105.47,11,709.5,0,3,110,4,105.47,0
+CUS-0266,Customer 266,40,Female,25,Two year,70.4,33,903.44,1,1,351,1,1760.0,1
+CUS-0267,Customer 267,24,Female,34,One year,117.06,1,595.63,1,5,316,2,3980.04,1
+CUS-0268,Customer 268,53,Male,14,Two year,36.99,49,272.43,0,4,50,6,517.86,0
+CUS-0269,Customer 269,36,Male,50,Month-to-month,90.98,23,215.34,1,5,2,1,4549.0,0
+CUS-0270,Customer 270,30,Male,67,Month-to-month,93.25,24,474.97,1,2,211,9,6247.75,1
+CUS-0271,Customer 271,30,Female,61,Month-to-month,50.39,44,512.95,1,3,110,2,3073.79,0
+CUS-0272,Customer 272,29,Male,64,Month-to-month,114.34,39,257.28,1,5,69,5,7317.76,1
+CUS-0273,Customer 273,46,Female,9,Month-to-month,114.81,29,640.19,1,3,190,9,1033.29,1
+CUS-0274,Customer 274,29,Female,54,Month-to-month,113.02,8,605.49,1,5,36,2,6103.08,1
+CUS-0275,Customer 275,19,Male,39,Month-to-month,59.21,18,512.96,1,5,134,8,2309.19,0
+CUS-0276,Customer 276,18,Female,29,Month-to-month,81.3,26,530.45,0,3,201,6,2357.7,0
+CUS-0277,Customer 277,46,Male,63,One year,58.41,34,990.8,1,4,113,8,3679.83,0
+CUS-0278,Customer 278,62,Female,50,Month-to-month,20.64,41,548.24,1,4,37,9,1032.0,0
+CUS-0279,Customer 279,21,Male,32,Month-to-month,38.67,40,458.61,1,2,42,8,1237.44,0
+CUS-0280,Customer 280,68,Female,56,One year,113.31,28,809.48,0,2,65,4,6345.36,0
+CUS-0281,Customer 281,47,Female,10,Month-to-month,119.87,1,620.68,1,5,179,7,1198.7,0
+CUS-0282,Customer 282,23,Male,49,Month-to-month,52.6,1,114.9,0,3,209,6,2577.4,1
+CUS-0283,Customer 283,40,Male,8,One year,98.12,21,30.06,1,5,32,4,784.96,1
+CUS-0284,Customer 284,47,Female,62,Month-to-month,43.61,26,18.77,0,1,322,7,2703.82,0
+CUS-0285,Customer 285,43,Female,51,Two year,31.99,23,433.38,1,1,325,2,1631.49,0
+CUS-0286,Customer 286,51,Female,1,Month-to-month,97.69,41,787.05,1,2,186,1,97.69,0
+CUS-0287,Customer 287,57,Male,56,Month-to-month,50.89,26,897.02,1,1,265,6,2849.84,0
+CUS-0288,Customer 288,49,Male,23,Month-to-month,56.32,24,499.62,1,2,152,6,1295.36,1
+CUS-0289,Customer 289,29,Male,54,One year,24.75,1,963.0,1,3,227,8,1336.5,0
+CUS-0290,Customer 290,22,Male,69,One year,76.38,45,929.97,1,4,41,0,5270.22,0
+CUS-0291,Customer 291,61,Male,38,Month-to-month,84.03,47,344.82,1,3,285,7,3193.14,0
+CUS-0292,Customer 292,28,Male,59,Month-to-month,110.03,32,595.65,0,2,99,3,6491.77,0
+CUS-0293,Customer 293,54,Male,31,Month-to-month,92.82,43,114.68,0,1,60,8,2877.42,0
+CUS-0294,Customer 294,63,Male,35,One year,117.19,9,139.49,1,3,338,9,4101.65,0
+CUS-0295,Customer 295,34,Male,48,Month-to-month,119.6,10,205.75,1,5,5,6,5740.8,0
+CUS-0296,Customer 296,21,Female,4,Two year,44.03,7,860.41,1,5,9,7,176.12,0
+CUS-0297,Customer 297,30,Male,10,Two year,108.06,19,384.04,1,3,234,3,1080.6,0
+CUS-0298,Customer 298,50,Male,47,Month-to-month,84.66,26,847.01,0,5,349,5,3979.02,0
+CUS-0299,Customer 299,45,Female,27,Month-to-month,63.9,33,221.35,0,3,155,9,1725.3,0
+CUS-0300,Customer 300,48,Female,65,One year,46.8,15,190.67,0,5,84,4,3042.0,0
+CUS-0301,Customer 301,56,Male,41,Month-to-month,77.58,36,116.85,1,3,227,1,3180.78,1
+CUS-0302,Customer 302,39,Female,3,Month-to-month,26.19,32,279.19,0,2,213,9,78.57,1
+CUS-0303,Customer 303,44,Female,60,Month-to-month,53.67,48,936.84,1,2,87,1,3220.2,1
+CUS-0304,Customer 304,19,Male,24,One year,112.51,1,867.28,1,2,258,0,2700.24,0
+CUS-0305,Customer 305,54,Male,70,Month-to-month,87.92,13,480.31,1,5,37,6,6154.4,1
+CUS-0306,Customer 306,60,Male,70,Two year,57.65,18,306.08,1,2,292,3,4035.5,0
+CUS-0307,Customer 307,27,Male,55,Two year,107.14,5,692.97,1,3,270,9,5892.7,0
+CUS-0308,Customer 308,62,Female,27,Month-to-month,81.62,37,406.95,0,2,231,8,2203.74,1
+CUS-0309,Customer 309,25,Female,63,One year,28.78,49,819.68,0,5,98,9,1813.14,0
+CUS-0310,Customer 310,56,Female,55,One year,41.66,30,209.56,1,4,33,9,2291.3,0
+CUS-0311,Customer 311,40,Male,63,Month-to-month,105.32,38,340.26,1,3,132,2,6635.16,0
+CUS-0312,Customer 312,65,Female,54,Month-to-month,65.27,47,860.11,1,1,123,2,3524.58,1
+CUS-0313,Customer 313,56,Male,29,One year,33.77,31,653.02,0,3,221,9,979.33,0
+CUS-0314,Customer 314,58,Female,53,Month-to-month,112.23,49,389.64,0,3,302,4,5948.19,1
+CUS-0315,Customer 315,67,Male,56,Month-to-month,23.84,10,292.36,0,5,269,9,1335.04,0
+CUS-0316,Customer 316,37,Male,38,One year,99.71,26,646.99,1,1,93,7,3788.98,1
+CUS-0317,Customer 317,46,Male,7,One year,117.89,6,58.58,0,1,352,6,825.23,1
+CUS-0318,Customer 318,18,Female,20,Month-to-month,63.37,11,261.82,1,2,102,6,1267.4,1
+CUS-0319,Customer 319,53,Female,50,Month-to-month,31.63,8,395.78,0,5,234,0,1581.5,1
+CUS-0320,Customer 320,64,Female,66,Month-to-month,80.33,16,532.42,1,5,66,3,5301.78,1
+CUS-0321,Customer 321,59,Female,56,One year,106.61,48,428.72,1,4,241,3,5970.16,1
+CUS-0322,Customer 322,65,Female,17,One year,99.68,23,474.11,1,4,170,2,1694.56,0
+CUS-0323,Customer 323,66,Female,10,Month-to-month,63.38,37,493.6,1,5,145,2,633.8,0
+CUS-0324,Customer 324,63,Male,44,One year,116.51,20,722.71,0,3,234,2,5126.44,1
+CUS-0325,Customer 325,55,Female,54,Month-to-month,55.09,6,389.59,0,1,99,5,2974.86,1
+CUS-0326,Customer 326,47,Male,40,Two year,32.1,48,50.13,0,1,211,5,1284.0,0
+CUS-0327,Customer 327,62,Female,51,One year,34.34,44,927.17,1,2,310,1,1751.34,1
+CUS-0328,Customer 328,40,Female,57,Month-to-month,112.94,45,247.08,0,5,128,3,6437.58,0
+CUS-0329,Customer 329,49,Male,52,Month-to-month,58.27,13,170.2,0,2,127,1,3030.04,1
+CUS-0330,Customer 330,27,Male,38,Month-to-month,116.69,40,220.57,0,2,34,2,4434.22,1
+CUS-0331,Customer 331,51,Male,27,Month-to-month,49.29,47,814.79,1,4,214,2,1330.83,1
+CUS-0332,Customer 332,50,Male,51,Month-to-month,46.66,14,922.73,0,2,57,0,2379.66,0
+CUS-0333,Customer 333,62,Male,17,One year,101.48,1,746.13,1,2,110,1,1725.16,1
+CUS-0334,Customer 334,54,Female,53,One year,87.56,8,208.66,0,1,77,4,4640.68,1
+CUS-0335,Customer 335,68,Male,34,One year,58.11,28,782.95,1,5,97,6,1975.74,0
+CUS-0336,Customer 336,45,Female,7,Month-to-month,62.98,37,991.01,1,1,156,6,440.86,1
+CUS-0337,Customer 337,61,Female,63,Month-to-month,63.39,14,295.6,0,2,122,7,3993.57,0
+CUS-0338,Customer 338,24,Female,47,One year,76.68,38,943.86,0,1,318,2,3603.96,0
+CUS-0339,Customer 339,51,Male,58,Month-to-month,113.82,38,794.66,1,2,103,1,6601.56,0
+CUS-0340,Customer 340,25,Male,23,Two year,29.04,19,368.48,0,3,130,2,667.92,0
+CUS-0341,Customer 341,47,Female,49,One year,37.5,23,765.13,1,4,141,2,1837.5,1
+CUS-0342,Customer 342,22,Male,18,One year,105.33,15,211.93,0,3,254,1,1895.94,0
+CUS-0343,Customer 343,64,Female,8,Month-to-month,103.99,43,399.48,1,1,82,6,831.92,1
+CUS-0344,Customer 344,18,Male,66,Month-to-month,97.32,39,18.81,1,3,211,2,6423.12,0
+CUS-0345,Customer 345,29,Female,33,Month-to-month,101.81,3,499.67,0,2,244,2,3359.73,1
+CUS-0346,Customer 346,58,Male,40,Month-to-month,53.89,35,455.61,1,3,247,9,2155.6,1
+CUS-0347,Customer 347,43,Male,15,Month-to-month,72.08,42,214.69,0,4,100,9,1081.2,0
+CUS-0348,Customer 348,40,Male,62,Two year,105.92,13,21.24,1,2,252,1,6567.04,0
+CUS-0349,Customer 349,28,Male,13,Month-to-month,50.59,6,10.21,0,4,58,7,657.67,0
+CUS-0350,Customer 350,49,Female,69,One year,21.45,32,180.95,1,1,332,6,1480.05,0
+CUS-0351,Customer 351,21,Male,28,Month-to-month,119.73,39,897.59,1,4,305,9,3352.44,0
+CUS-0352,Customer 352,41,Male,44,Month-to-month,34.89,20,299.85,0,1,34,2,1535.16,0
+CUS-0353,Customer 353,27,Female,69,One year,44.62,23,304.59,1,4,352,8,3078.78,0
+CUS-0354,Customer 354,35,Male,48,Month-to-month,24.22,25,56.51,1,3,18,1,1162.56,0
+CUS-0355,Customer 355,69,Male,26,Two year,102.9,45,859.81,1,5,103,4,2675.4,1
+CUS-0356,Customer 356,37,Male,51,Month-to-month,29.95,35,499.18,1,1,302,1,1527.45,1
+CUS-0357,Customer 357,30,Male,17,One year,60.67,11,838.85,0,2,64,8,1031.39,0
+CUS-0358,Customer 358,51,Female,41,Month-to-month,63.35,7,875.69,1,5,276,8,2597.35,1
+CUS-0359,Customer 359,21,Male,13,Month-to-month,106.28,36,801.72,1,1,185,7,1381.64,0
+CUS-0360,Customer 360,55,Male,20,Month-to-month,49.98,2,914.17,1,2,139,0,999.6,0
+CUS-0361,Customer 361,65,Female,11,Month-to-month,65.59,30,333.22,1,4,18,7,721.49,0
+CUS-0362,Customer 362,27,Female,30,Month-to-month,34.77,13,125.86,1,4,308,3,1043.1,0
+CUS-0363,Customer 363,21,Female,13,Month-to-month,70.15,24,668.1,0,3,305,3,911.95,0
+CUS-0364,Customer 364,35,Female,59,Month-to-month,35.38,7,868.22,0,2,61,4,2087.42,0
+CUS-0365,Customer 365,24,Female,22,One year,88.95,20,790.27,0,2,135,9,1956.9,0
+CUS-0366,Customer 366,34,Male,1,Month-to-month,46.94,10,243.9,0,4,47,7,46.94,0
+CUS-0367,Customer 367,47,Female,70,Month-to-month,63.07,11,861.67,1,5,250,2,4414.9,0
+CUS-0368,Customer 368,40,Female,59,Month-to-month,85.32,5,515.29,1,5,363,5,5033.88,0
+CUS-0369,Customer 369,32,Male,5,Month-to-month,56.09,13,641.12,1,4,88,1,280.45,0
+CUS-0370,Customer 370,62,Female,33,Two year,48.54,18,319.41,1,5,217,5,1601.82,0
+CUS-0371,Customer 371,54,Female,58,Month-to-month,108.85,28,278.35,0,1,238,5,6313.3,1
+CUS-0372,Customer 372,32,Male,24,Month-to-month,57.09,30,394.07,1,4,164,7,1370.16,0
+CUS-0373,Customer 373,43,Male,28,Month-to-month,28.05,7,768.8,1,5,55,5,785.4,0
+CUS-0374,Customer 374,31,Female,1,One year,21.16,11,706.98,1,4,93,2,21.16,1
+CUS-0375,Customer 375,48,Female,31,One year,51.08,10,454.84,1,3,160,9,1583.48,1
+CUS-0376,Customer 376,23,Female,20,One year,20.78,28,726.12,0,3,272,3,415.6,0
+CUS-0377,Customer 377,52,Female,43,Two year,48.4,19,95.79,0,2,294,5,2081.2,1
+CUS-0378,Customer 378,43,Male,58,One year,112.85,48,934.0,1,5,113,9,6545.3,0
+CUS-0379,Customer 379,51,Male,31,One year,74.45,39,329.56,0,3,295,1,2307.95,0
+CUS-0380,Customer 380,18,Female,16,Month-to-month,43.35,10,74.57,0,2,130,2,693.6,1
+CUS-0381,Customer 381,38,Female,44,Month-to-month,113.37,38,576.85,1,4,43,8,4988.28,0
+CUS-0382,Customer 382,63,Female,13,Month-to-month,23.59,30,206.07,1,5,89,4,306.67,0
+CUS-0383,Customer 383,50,Female,21,Month-to-month,115.79,30,991.88,0,2,19,3,2431.59,0
+CUS-0384,Customer 384,68,Female,48,Month-to-month,91.87,11,721.61,1,3,262,9,4409.76,1
+CUS-0385,Customer 385,44,Female,49,Month-to-month,31.12,24,870.32,1,5,75,6,1524.88,1
+CUS-0386,Customer 386,59,Female,16,Month-to-month,36.68,35,786.24,1,1,125,8,586.88,0
+CUS-0387,Customer 387,51,Female,39,Month-to-month,23.41,13,536.95,1,3,231,0,912.99,0
+CUS-0388,Customer 388,31,Male,30,Month-to-month,56.46,45,454.65,0,5,307,2,1693.8,1
+CUS-0389,Customer 389,20,Female,33,Month-to-month,28.48,40,611.12,1,3,321,7,939.84,0
+CUS-0390,Customer 390,40,Female,6,Month-to-month,47.6,48,249.16,1,3,145,5,285.6,0
+CUS-0391,Customer 391,39,Female,18,One year,27.28,30,106.33,1,3,174,3,491.04,0
+CUS-0392,Customer 392,55,Male,5,Month-to-month,46.41,39,262.15,1,1,110,7,232.05,0
+CUS-0393,Customer 393,25,Female,10,One year,99.26,34,361.74,1,3,51,9,992.6,1
+CUS-0394,Customer 394,32,Male,49,One year,72.44,3,118.23,1,5,303,0,3549.56,1
+CUS-0395,Customer 395,55,Female,5,Month-to-month,64.52,7,953.73,1,3,121,3,322.6,0
+CUS-0396,Customer 396,54,Female,45,One year,37.42,13,770.5,1,1,64,2,1683.9,0
+CUS-0397,Customer 397,23,Female,68,Month-to-month,24.88,21,720.7,0,2,165,8,1691.84,0
+CUS-0398,Customer 398,48,Female,4,Month-to-month,94.21,17,269.1,1,1,115,8,376.84,0
+CUS-0399,Customer 399,62,Female,51,Month-to-month,55.32,29,645.21,1,3,78,3,2821.32,1
+CUS-0400,Customer 400,43,Male,40,Month-to-month,28.08,16,937.08,1,5,89,3,1123.2,1
+CUS-0401,Customer 401,47,Female,66,One year,60.85,48,310.62,0,5,336,6,4016.1,0
+CUS-0402,Customer 402,47,Female,16,Month-to-month,98.99,2,821.24,1,3,186,1,1583.84,0
+CUS-0403,Customer 403,25,Male,17,Month-to-month,48.12,2,244.02,1,1,352,1,818.04,0
+CUS-0404,Customer 404,64,Male,44,Month-to-month,51.24,47,569.52,1,2,157,8,2254.56,1
+CUS-0405,Customer 405,38,Female,65,One year,83.34,36,683.54,0,4,163,3,5417.1,0
+CUS-0406,Customer 406,35,Male,9,One year,31.91,38,889.69,0,1,316,5,287.19,1
+CUS-0407,Customer 407,53,Male,31,Two year,75.95,10,652.49,1,3,80,1,2354.45,0
+CUS-0408,Customer 408,26,Male,31,One year,107.61,3,974.85,1,2,119,1,3335.91,0
+CUS-0409,Customer 409,62,Female,44,Two year,65.34,32,798.26,1,1,139,3,2874.96,0
+CUS-0410,Customer 410,23,Female,21,Month-to-month,29.11,43,913.22,0,2,34,3,611.31,0
+CUS-0411,Customer 411,49,Female,12,One year,71.7,39,688.03,1,3,102,0,860.4,0
+CUS-0412,Customer 412,50,Male,7,Month-to-month,60.3,44,879.41,1,3,335,3,422.1,1
+CUS-0413,Customer 413,28,Female,1,Month-to-month,83.03,13,918.69,1,2,61,2,83.03,1
+CUS-0414,Customer 414,52,Male,20,One year,93.42,5,601.99,1,2,64,0,1868.4,1
+CUS-0415,Customer 415,29,Male,49,Month-to-month,92.82,18,908.92,1,5,354,3,4548.18,0
+CUS-0416,Customer 416,46,Male,1,Month-to-month,56.7,28,31.3,1,3,232,7,56.7,0
+CUS-0417,Customer 417,64,Female,10,Month-to-month,45.52,17,611.74,1,2,316,3,455.2,1
+CUS-0418,Customer 418,57,Female,36,Two year,93.77,43,532.91,1,5,55,3,3375.72,0
+CUS-0419,Customer 419,19,Female,35,One year,105.33,28,595.35,0,2,9,2,3686.55,0
+CUS-0420,Customer 420,38,Male,18,One year,32.24,48,35.11,1,3,235,1,580.32,0
+CUS-0421,Customer 421,62,Female,25,Month-to-month,76.67,47,91.73,1,4,345,7,1916.75,0
+CUS-0422,Customer 422,64,Female,21,Month-to-month,51.93,17,390.81,1,5,12,9,1090.53,0
+CUS-0423,Customer 423,18,Male,40,Month-to-month,110.2,15,309.48,0,4,128,9,4408.0,1
+CUS-0424,Customer 424,59,Male,7,Two year,78.24,22,821.99,1,3,20,9,547.68,0
+CUS-0425,Customer 425,45,Male,25,Two year,102.36,40,496.07,1,2,254,1,2559.0,0
+CUS-0426,Customer 426,21,Female,52,Month-to-month,89.3,31,691.55,0,1,174,5,4643.6,1
+CUS-0427,Customer 427,32,Male,25,Month-to-month,94.21,26,910.4,0,4,23,9,2355.25,0
+CUS-0428,Customer 428,50,Male,23,One year,41.82,35,949.2,1,3,145,3,961.86,0
+CUS-0429,Customer 429,47,Male,30,Month-to-month,66.72,33,8.28,0,1,240,0,2001.6,1
+CUS-0430,Customer 430,24,Male,55,Two year,42.63,33,872.73,0,1,308,8,2344.65,0
+CUS-0431,Customer 431,30,Male,71,Month-to-month,37.49,26,609.83,1,3,265,4,2661.79,0
+CUS-0432,Customer 432,40,Male,30,Month-to-month,60.46,10,518.25,0,5,242,5,1813.8,1
+CUS-0433,Customer 433,64,Female,43,Month-to-month,87.84,16,597.78,0,5,100,9,3777.12,0
+CUS-0434,Customer 434,53,Female,29,Month-to-month,36.41,7,862.91,1,1,117,9,1055.89,1
+CUS-0435,Customer 435,29,Female,17,Month-to-month,33.46,7,534.84,1,1,254,4,568.82,1
+CUS-0436,Customer 436,50,Male,69,Month-to-month,44.34,12,940.46,0,3,281,5,3059.46,0
+CUS-0437,Customer 437,41,Female,38,One year,77.02,48,371.79,1,2,183,3,2926.76,0
+CUS-0438,Customer 438,21,Male,43,Month-to-month,71.25,17,320.32,1,3,214,7,3063.75,1
+CUS-0439,Customer 439,37,Female,12,One year,84.14,13,425.4,1,5,182,5,1009.68,1
+CUS-0440,Customer 440,61,Female,17,Month-to-month,110.64,28,918.26,0,3,5,1,1880.88,0
+CUS-0441,Customer 441,69,Female,1,Month-to-month,93.07,42,73.97,1,2,183,6,93.07,1
+CUS-0442,Customer 442,24,Female,45,Month-to-month,98.48,11,943.6,1,1,244,9,4431.6,0
+CUS-0443,Customer 443,29,Female,32,One year,59.76,26,236.09,1,4,271,0,1912.32,1
+CUS-0444,Customer 444,69,Female,63,Month-to-month,105.69,9,53.45,1,3,248,7,6658.47,1
+CUS-0445,Customer 445,24,Male,28,Month-to-month,38.84,22,734.49,0,5,16,8,1087.52,0
+CUS-0446,Customer 446,58,Female,43,Month-to-month,20.81,30,482.3,1,5,313,1,894.83,0
+CUS-0447,Customer 447,46,Male,34,Two year,28.35,40,749.77,0,4,29,1,963.9,0
+CUS-0448,Customer 448,45,Male,5,Month-to-month,99.07,14,36.96,1,1,132,1,495.35,1
+CUS-0449,Customer 449,27,Female,30,Month-to-month,23.12,8,4.35,0,4,99,1,693.6,1
+CUS-0450,Customer 450,45,Male,9,One year,97.98,7,602.51,1,1,113,1,881.82,1
+CUS-0451,Customer 451,55,Female,65,Month-to-month,117.72,26,583.06,1,3,82,2,7651.8,0
+CUS-0452,Customer 452,26,Female,67,Month-to-month,78.96,32,722.6,1,4,341,6,5290.32,0
+CUS-0453,Customer 453,43,Male,20,One year,57.31,7,140.71,0,4,357,5,1146.2,1
+CUS-0454,Customer 454,47,Male,38,Month-to-month,40.91,40,288.59,1,1,304,1,1554.58,1
+CUS-0455,Customer 455,35,Male,1,One year,57.6,13,823.49,0,2,179,2,57.6,0
+CUS-0456,Customer 456,54,Female,56,Two year,24.15,7,424.31,0,4,207,3,1352.4,0
+CUS-0457,Customer 457,31,Female,68,Month-to-month,45.56,16,883.25,0,3,311,5,3098.08,0
+CUS-0458,Customer 458,41,Female,61,One year,59.39,35,535.87,0,4,66,1,3622.79,0
+CUS-0459,Customer 459,58,Male,29,One year,22.31,22,989.43,1,2,83,2,646.99,1
+CUS-0460,Customer 460,27,Female,3,Month-to-month,26.89,36,100.53,1,5,116,5,80.67,0
+CUS-0461,Customer 461,33,Female,25,One year,75.11,20,707.86,0,3,248,3,1877.75,0
+CUS-0462,Customer 462,38,Male,11,One year,42.42,6,711.26,1,4,222,0,466.62,0
+CUS-0463,Customer 463,32,Female,7,Two year,108.47,8,398.39,1,5,11,9,759.29,0
+CUS-0464,Customer 464,52,Male,23,Month-to-month,21.34,17,118.35,1,1,126,9,490.82,1
+CUS-0465,Customer 465,37,Female,4,Month-to-month,91.89,20,520.92,0,2,160,9,367.56,0
+CUS-0466,Customer 466,37,Male,70,Month-to-month,93.58,14,581.44,1,5,278,6,6550.6,0
+CUS-0467,Customer 467,36,Male,22,Two year,78.78,37,125.78,1,4,332,4,1733.16,1
+CUS-0468,Customer 468,65,Male,35,Month-to-month,27.35,35,39.14,1,1,89,8,957.25,1
+CUS-0469,Customer 469,67,Male,66,Month-to-month,103.0,16,277.23,0,1,194,8,6798.0,0
+CUS-0470,Customer 470,62,Female,51,Month-to-month,112.07,23,555.09,1,2,351,8,5715.57,0
+CUS-0471,Customer 471,42,Male,69,Month-to-month,114.64,17,639.02,1,5,290,4,7910.16,1
+CUS-0472,Customer 472,35,Female,11,Month-to-month,89.35,18,533.55,0,5,230,4,982.85,0
+CUS-0473,Customer 473,59,Female,38,Month-to-month,87.04,1,653.36,0,5,104,1,3307.52,0
+CUS-0474,Customer 474,58,Female,48,One year,107.41,22,558.81,1,3,58,2,5155.68,0
+CUS-0475,Customer 475,40,Female,9,One year,75.18,48,246.86,0,2,222,1,676.62,0
+CUS-0476,Customer 476,45,Female,42,One year,100.85,48,847.14,0,3,138,9,4235.7,1
+CUS-0477,Customer 477,54,Female,39,One year,60.75,21,306.13,1,4,188,6,2369.25,0
+CUS-0478,Customer 478,68,Female,10,Month-to-month,81.62,33,923.44,1,1,182,5,816.2,0
+CUS-0479,Customer 479,56,Male,12,Two year,66.83,25,504.32,1,4,195,2,801.96,0
+CUS-0480,Customer 480,23,Female,71,Two year,53.92,45,269.26,1,4,41,0,3828.32,0
+CUS-0481,Customer 481,37,Female,29,Month-to-month,111.64,32,507.83,0,1,161,5,3237.56,1
+CUS-0482,Customer 482,39,Female,17,One year,115.31,43,124.52,0,2,209,5,1960.27,1
+CUS-0483,Customer 483,45,Male,50,One year,87.42,34,586.66,1,2,67,8,4371.0,1
+CUS-0484,Customer 484,53,Male,30,Month-to-month,99.29,8,117.49,1,5,349,5,2978.7,1
+CUS-0485,Customer 485,32,Male,70,Month-to-month,52.59,41,554.91,1,5,32,3,3681.3,1
+CUS-0486,Customer 486,52,Male,31,Month-to-month,114.31,18,424.05,0,2,84,7,3543.61,1
+CUS-0487,Customer 487,36,Male,59,One year,40.02,13,52.25,1,4,131,3,2361.18,0
+CUS-0488,Customer 488,52,Male,15,Month-to-month,20.57,3,178.99,0,3,288,5,308.55,1
+CUS-0489,Customer 489,56,Male,21,Month-to-month,103.62,37,581.24,1,5,24,1,2176.02,0
+CUS-0490,Customer 490,25,Female,14,Two year,91.27,35,245.41,1,2,207,2,1277.78,1
+CUS-0491,Customer 491,36,Male,24,One year,75.67,10,202.14,1,4,359,7,1816.08,1
+CUS-0492,Customer 492,19,Female,12,One year,54.75,49,301.97,1,4,88,4,657.0,0
+CUS-0493,Customer 493,40,Female,9,One year,106.38,17,341.27,0,3,324,4,957.42,0
+CUS-0494,Customer 494,23,Male,54,One year,82.42,2,164.57,1,2,128,9,4450.68,1
+CUS-0495,Customer 495,65,Female,49,Month-to-month,115.24,41,793.14,1,4,246,3,5646.76,1
+CUS-0496,Customer 496,18,Female,48,Month-to-month,89.37,26,734.32,1,4,306,8,4289.76,0
+CUS-0497,Customer 497,21,Male,67,Month-to-month,56.62,22,753.16,1,1,256,6,3793.54,1
+CUS-0498,Customer 498,62,Male,20,One year,75.88,23,263.19,1,4,305,3,1517.6,0
+CUS-0499,Customer 499,45,Male,38,Month-to-month,80.97,46,961.53,1,1,130,7,3076.86,0
+CUS-0500,Customer 500,26,Female,61,One year,45.68,40,268.44,1,2,74,5,2786.48,0
+CUS-0501,Customer 501,55,Female,35,One year,73.33,41,347.45,1,2,286,1,2566.55,0
+CUS-0502,Customer 502,38,Female,27,Month-to-month,73.36,39,829.7,0,5,297,5,1980.72,1
+CUS-0503,Customer 503,32,Male,71,Month-to-month,80.94,17,379.46,1,4,249,0,5746.74,1
+CUS-0504,Customer 504,69,Female,9,Month-to-month,85.58,13,614.93,1,1,128,8,770.22,0
+CUS-0505,Customer 505,52,Male,57,Month-to-month,33.54,9,229.4,1,4,224,9,1911.78,0
+CUS-0506,Customer 506,26,Female,64,Two year,59.75,18,423.31,0,5,43,3,3824.0,0
+CUS-0507,Customer 507,67,Male,41,Month-to-month,78.86,28,918.56,1,1,351,4,3233.26,1
+CUS-0508,Customer 508,36,Male,23,One year,119.04,29,642.47,1,1,326,8,2737.92,0
+CUS-0509,Customer 509,29,Male,62,One year,30.13,12,435.7,0,4,284,6,1868.06,0
+CUS-0510,Customer 510,58,Male,47,Month-to-month,37.2,11,887.8,1,3,317,3,1748.4,0
+CUS-0511,Customer 511,43,Female,36,Month-to-month,41.23,5,835.01,1,4,155,7,1484.28,1
+CUS-0512,Customer 512,31,Female,62,Month-to-month,39.31,17,796.93,0,5,78,5,2437.22,0
+CUS-0513,Customer 513,65,Male,66,Month-to-month,37.03,30,975.82,1,2,232,9,2443.98,1
+CUS-0514,Customer 514,49,Male,30,Month-to-month,115.19,2,745.18,1,5,337,2,3455.7,0
+CUS-0515,Customer 515,32,Female,8,Month-to-month,44.41,18,688.99,1,1,217,0,355.28,0
+CUS-0516,Customer 516,67,Male,33,One year,37.06,19,530.02,1,2,75,0,1222.98,1
+CUS-0517,Customer 517,53,Male,60,Month-to-month,107.17,47,472.0,1,3,264,0,6430.2,1
+CUS-0518,Customer 518,52,Male,10,Month-to-month,105.85,49,727.84,1,5,79,0,1058.5,0
+CUS-0519,Customer 519,59,Male,12,Month-to-month,45.47,34,858.01,1,2,2,2,545.64,0
+CUS-0520,Customer 520,20,Female,10,Month-to-month,86.41,41,442.13,1,4,155,1,864.1,0
+CUS-0521,Customer 521,23,Female,71,One year,61.34,8,183.39,0,4,109,6,4355.14,1
+CUS-0522,Customer 522,65,Male,2,One year,111.74,27,572.31,0,1,68,7,223.48,0
+CUS-0523,Customer 523,32,Female,34,Month-to-month,89.16,11,215.93,1,3,323,3,3031.44,0
+CUS-0524,Customer 524,41,Female,24,One year,33.72,13,359.74,0,2,287,1,809.28,1
+CUS-0525,Customer 525,24,Female,2,One year,28.78,30,925.31,1,3,198,8,57.56,1
+CUS-0526,Customer 526,52,Female,65,Month-to-month,35.44,13,387.08,1,3,106,8,2303.6,1
+CUS-0527,Customer 527,37,Female,22,Month-to-month,97.49,4,221.63,0,5,153,8,2144.78,0
+CUS-0528,Customer 528,39,Female,21,Month-to-month,36.82,41,463.27,0,3,4,3,773.22,1
+CUS-0529,Customer 529,23,Female,23,One year,27.51,41,91.25,1,3,91,1,632.73,1
+CUS-0530,Customer 530,57,Male,54,One year,85.5,25,844.18,0,2,98,4,4617.0,1
+CUS-0531,Customer 531,58,Female,48,Month-to-month,53.66,12,954.82,1,1,277,3,2575.68,1
+CUS-0532,Customer 532,54,Male,63,One year,108.58,30,618.06,1,2,154,2,6840.54,0
+CUS-0533,Customer 533,35,Female,69,One year,48.89,1,804.82,1,3,164,6,3373.41,0
+CUS-0534,Customer 534,68,Male,59,One year,69.32,24,429.22,1,3,124,0,4089.88,1
+CUS-0535,Customer 535,68,Female,70,Month-to-month,73.8,9,129.86,0,3,354,5,5166.0,0
+CUS-0536,Customer 536,30,Male,60,Month-to-month,103.4,37,645.16,1,5,45,6,6204.0,0
+CUS-0537,Customer 537,34,Female,41,Month-to-month,84.57,3,87.22,1,2,292,4,3467.37,1
+CUS-0538,Customer 538,33,Female,71,Month-to-month,56.17,27,167.69,1,4,205,4,3988.07,0
+CUS-0539,Customer 539,24,Female,10,Month-to-month,20.56,5,46.25,1,5,111,2,205.6,0
+CUS-0540,Customer 540,55,Female,22,One year,64.43,42,104.34,1,4,15,0,1417.46,0
+CUS-0541,Customer 541,50,Female,58,Month-to-month,116.12,36,497.62,1,5,130,5,6734.96,0
+CUS-0542,Customer 542,43,Female,22,One year,82.62,8,595.8,0,5,325,0,1817.64,0
+CUS-0543,Customer 543,27,Male,11,One year,98.98,18,47.86,1,1,312,9,1088.78,0
+CUS-0544,Customer 544,30,Male,50,Two year,34.09,29,28.97,1,4,94,0,1704.5,0
+CUS-0545,Customer 545,37,Female,50,One year,65.56,2,165.76,1,3,257,1,3278.0,1
+CUS-0546,Customer 546,33,Female,43,Month-to-month,61.62,27,828.33,1,3,331,8,2649.66,0
+CUS-0547,Customer 547,54,Male,58,One year,56.4,14,556.46,0,3,50,8,3271.2,0
+CUS-0548,Customer 548,66,Male,55,Month-to-month,114.6,44,902.43,1,4,152,7,6303.0,0
+CUS-0549,Customer 549,57,Female,65,Month-to-month,63.13,43,598.84,1,2,160,0,4103.45,1
+CUS-0550,Customer 550,42,Female,20,Month-to-month,117.76,45,265.03,1,1,172,3,2355.2,0
+CUS-0551,Customer 551,65,Female,64,Month-to-month,25.86,15,688.0,1,5,187,9,1655.04,1
+CUS-0552,Customer 552,39,Male,55,Month-to-month,102.54,13,302.62,0,4,67,1,5639.7,0
+CUS-0553,Customer 553,62,Female,63,One year,83.89,42,894.11,0,5,217,2,5285.07,0
+CUS-0554,Customer 554,40,Female,66,One year,110.63,34,751.83,1,4,208,9,7301.58,0
+CUS-0555,Customer 555,44,Female,21,Month-to-month,110.77,31,602.24,1,5,283,3,2326.17,1
+CUS-0556,Customer 556,46,Male,54,One year,38.68,14,513.7,1,1,93,5,2088.72,0
+CUS-0557,Customer 557,49,Male,41,Month-to-month,60.25,46,708.05,0,2,358,4,2470.25,1
+CUS-0558,Customer 558,21,Female,16,Month-to-month,35.64,26,993.35,1,4,112,8,570.24,0
+CUS-0559,Customer 559,26,Female,11,Month-to-month,65.34,42,602.72,0,3,307,9,718.74,0
+CUS-0560,Customer 560,24,Female,37,Month-to-month,95.19,46,377.5,0,5,171,7,3522.03,0
+CUS-0561,Customer 561,33,Female,49,Month-to-month,95.2,17,227.71,1,4,7,9,4664.8,0
+CUS-0562,Customer 562,41,Female,26,One year,52.12,1,478.31,0,5,77,6,1355.12,0
+CUS-0563,Customer 563,18,Male,15,One year,90.03,23,705.95,0,5,11,6,1350.45,1
+CUS-0564,Customer 564,57,Male,30,Month-to-month,97.13,36,666.67,1,3,124,3,2913.9,0
+CUS-0565,Customer 565,28,Female,66,One year,104.47,25,622.04,0,2,90,2,6895.02,1
+CUS-0566,Customer 566,51,Female,46,Month-to-month,101.19,3,606.77,1,2,214,3,4654.74,1
+CUS-0567,Customer 567,37,Male,16,One year,25.18,22,263.43,1,2,142,4,402.88,1
+CUS-0568,Customer 568,66,Female,55,Month-to-month,76.47,39,831.47,1,4,69,8,4205.85,0
+CUS-0569,Customer 569,66,Male,10,Two year,20.44,20,536.61,1,2,272,7,204.4,0
+CUS-0570,Customer 570,39,Male,53,One year,85.05,28,677.81,1,1,156,7,4507.65,0
+CUS-0571,Customer 571,49,Male,4,Month-to-month,75.84,15,6.86,0,5,61,2,303.36,0
+CUS-0572,Customer 572,25,Male,62,Two year,67.26,12,213.0,0,4,280,7,4170.12,0
+CUS-0573,Customer 573,51,Male,21,Month-to-month,26.56,22,276.31,0,5,156,0,557.76,1
+CUS-0574,Customer 574,32,Male,41,Month-to-month,94.02,28,939.12,1,4,48,0,3854.82,0
+CUS-0575,Customer 575,18,Male,21,Month-to-month,110.11,13,375.77,1,1,315,0,2312.31,0
+CUS-0576,Customer 576,60,Male,28,Month-to-month,47.19,25,343.99,0,2,95,2,1321.32,0
+CUS-0577,Customer 577,56,Female,27,Month-to-month,33.13,25,667.13,1,5,135,2,894.51,0
+CUS-0578,Customer 578,36,Female,70,One year,58.33,6,827.8,1,5,252,7,4083.1,0
+CUS-0579,Customer 579,60,Female,25,Month-to-month,59.52,21,480.14,1,1,155,1,1488.0,0
+CUS-0580,Customer 580,45,Female,59,Month-to-month,84.01,16,136.59,1,2,302,9,4956.59,0
+CUS-0581,Customer 581,26,Female,41,One year,57.59,30,877.22,0,2,135,7,2361.19,1
+CUS-0582,Customer 582,38,Male,21,Month-to-month,49.77,43,21.21,1,2,56,5,1045.17,1
+CUS-0583,Customer 583,34,Female,12,One year,55.88,3,775.98,1,5,171,4,670.56,0
+CUS-0584,Customer 584,47,Male,48,Month-to-month,44.7,38,161.46,0,2,32,8,2145.6,0
+CUS-0585,Customer 585,40,Male,41,One year,83.69,4,342.62,1,5,6,1,3431.29,0
+CUS-0586,Customer 586,52,Female,19,Two year,104.17,33,864.73,1,2,210,9,1979.23,0
+CUS-0587,Customer 587,67,Female,4,Month-to-month,31.48,38,968.53,0,2,108,1,125.92,0
+CUS-0588,Customer 588,59,Female,59,Two year,62.61,21,773.98,1,2,270,9,3693.99,0
+CUS-0589,Customer 589,31,Male,32,One year,33.24,26,147.46,1,1,107,7,1063.68,1
+CUS-0590,Customer 590,31,Male,32,One year,20.97,40,787.22,1,1,144,9,671.04,0
+CUS-0591,Customer 591,68,Male,35,Two year,27.4,31,808.73,1,5,136,9,959.0,0
+CUS-0592,Customer 592,33,Male,3,Month-to-month,23.93,10,341.5,1,2,275,8,71.79,0
+CUS-0593,Customer 593,24,Male,47,Two year,82.22,21,835.72,0,5,335,6,3864.34,1
+CUS-0594,Customer 594,49,Male,69,One year,49.64,34,367.95,1,1,363,0,3425.16,0
+CUS-0595,Customer 595,62,Male,25,Month-to-month,63.91,11,783.08,1,1,36,7,1597.75,0
+CUS-0596,Customer 596,45,Female,5,Month-to-month,75.83,4,638.96,1,4,158,1,379.15,1
+CUS-0597,Customer 597,49,Male,8,Month-to-month,42.14,31,917.64,1,4,289,1,337.12,0
+CUS-0598,Customer 598,26,Male,22,Month-to-month,41.83,27,221.79,1,1,237,4,920.26,0
+CUS-0599,Customer 599,57,Female,12,Month-to-month,101.08,10,425.89,0,1,130,1,1212.96,1
+CUS-0600,Customer 600,57,Female,27,One year,39.1,49,688.97,0,5,195,4,1055.7,1
+CUS-0601,Customer 601,52,Female,4,One year,76.23,3,515.22,1,2,104,6,304.92,1
+CUS-0602,Customer 602,36,Male,2,One year,113.09,27,662.41,1,4,143,5,226.18,0
+CUS-0603,Customer 603,40,Female,45,Month-to-month,30.33,32,539.74,1,4,152,8,1364.85,0
+CUS-0604,Customer 604,47,Male,40,Month-to-month,108.61,36,161.8,1,1,288,3,4344.4,1
+CUS-0605,Customer 605,66,Female,42,Two year,88.72,28,51.34,1,4,179,5,3726.24,0
+CUS-0606,Customer 606,30,Male,20,One year,71.73,36,425.71,1,4,46,9,1434.6,1
+CUS-0607,Customer 607,47,Male,40,One year,40.02,44,664.4,0,4,188,2,1600.8,0
+CUS-0608,Customer 608,48,Male,15,Two year,33.29,19,858.55,0,4,113,4,499.35,0
+CUS-0609,Customer 609,60,Female,25,One year,109.88,44,516.82,1,1,304,2,2747.0,1
+CUS-0610,Customer 610,40,Male,64,Month-to-month,83.79,3,651.64,1,3,72,5,5362.56,1
+CUS-0611,Customer 611,22,Female,46,One year,76.94,42,597.7,1,3,56,9,3539.24,0
+CUS-0612,Customer 612,46,Female,21,One year,118.13,23,199.02,0,2,139,3,2480.73,1
+CUS-0613,Customer 613,59,Male,47,Month-to-month,95.73,47,932.71,1,2,249,2,4499.31,0
+CUS-0614,Customer 614,35,Female,31,One year,42.45,17,737.4,0,1,322,5,1315.95,0
+CUS-0615,Customer 615,29,Male,17,Two year,60.05,22,761.18,0,3,318,0,1020.85,0
+CUS-0616,Customer 616,59,Female,39,Two year,91.17,12,436.02,1,4,181,5,3555.63,0
+CUS-0617,Customer 617,57,Female,70,Month-to-month,52.11,43,968.87,1,5,67,3,3647.7,1
+CUS-0618,Customer 618,19,Male,10,Month-to-month,44.19,44,465.58,0,2,74,1,441.9,1
+CUS-0619,Customer 619,68,Male,34,Two year,95.41,41,907.85,1,5,68,0,3243.94,0
+CUS-0620,Customer 620,39,Female,17,Month-to-month,111.67,27,20.47,0,3,90,8,1898.39,0
+CUS-0621,Customer 621,46,Male,60,Month-to-month,110.95,48,381.87,1,3,246,7,6657.0,0
+CUS-0622,Customer 622,46,Male,29,One year,75.94,49,200.01,1,1,162,7,2202.26,1
+CUS-0623,Customer 623,61,Female,36,Month-to-month,30.15,7,8.65,0,5,279,8,1085.4,0
+CUS-0624,Customer 624,53,Female,67,Two year,48.23,16,945.27,0,3,362,5,3231.41,1
+CUS-0625,Customer 625,37,Male,67,Month-to-month,92.43,6,619.74,0,4,254,8,6192.81,0
+CUS-0626,Customer 626,44,Male,71,One year,69.21,1,104.35,1,3,147,5,4913.91,0
+CUS-0627,Customer 627,69,Female,56,One year,88.38,43,817.26,0,4,149,7,4949.28,1
+CUS-0628,Customer 628,65,Female,23,Month-to-month,32.22,24,286.95,0,3,122,5,741.06,1
+CUS-0629,Customer 629,58,Female,36,One year,92.07,24,360.91,1,3,254,9,3314.52,1
+CUS-0630,Customer 630,57,Male,17,One year,96.77,48,726.56,1,1,29,6,1645.09,0
+CUS-0631,Customer 631,34,Female,2,Two year,24.9,36,35.14,1,1,302,5,49.8,0
+CUS-0632,Customer 632,68,Male,54,Two year,65.6,38,629.3,1,3,329,3,3542.4,0
+CUS-0633,Customer 633,31,Female,43,Month-to-month,25.41,21,844.86,1,1,218,7,1092.63,0
+CUS-0634,Customer 634,30,Male,1,Month-to-month,63.07,15,339.76,1,3,67,5,63.07,1
+CUS-0635,Customer 635,23,Female,36,One year,105.01,16,23.76,0,3,179,9,3780.36,0
+CUS-0636,Customer 636,55,Male,9,One year,51.31,34,698.18,0,5,61,9,461.79,0
+CUS-0637,Customer 637,64,Male,9,Month-to-month,38.0,34,258.34,1,2,145,3,342.0,1
+CUS-0638,Customer 638,36,Male,6,Month-to-month,99.32,36,425.7,1,1,213,0,595.92,1
+CUS-0639,Customer 639,53,Female,1,One year,35.01,29,919.25,1,2,105,0,35.01,1
+CUS-0640,Customer 640,60,Male,30,One year,88.23,7,899.12,1,4,147,5,2646.9,1
+CUS-0641,Customer 641,66,Male,60,One year,40.45,26,400.57,0,2,253,8,2427.0,1
+CUS-0642,Customer 642,65,Female,40,Month-to-month,93.62,8,46.87,1,2,8,1,3744.8,0
+CUS-0643,Customer 643,33,Male,46,Month-to-month,110.24,4,111.67,1,5,295,6,5071.04,0
+CUS-0644,Customer 644,62,Male,42,One year,81.82,34,873.64,1,1,334,5,3436.44,0
+CUS-0645,Customer 645,63,Male,4,Month-to-month,89.48,31,892.28,1,1,263,7,357.92,0
+CUS-0646,Customer 646,53,Female,35,Month-to-month,48.13,16,222.28,1,5,38,7,1684.55,0
+CUS-0647,Customer 647,48,Male,39,Month-to-month,54.15,11,967.49,0,4,56,1,2111.85,0
+CUS-0648,Customer 648,65,Female,17,Month-to-month,77.35,3,97.52,0,2,264,1,1314.95,0
+CUS-0649,Customer 649,37,Male,21,Month-to-month,52.55,44,97.98,0,2,298,4,1103.55,1
+CUS-0650,Customer 650,37,Male,28,Month-to-month,84.29,17,859.42,1,5,47,3,2360.12,1
+CUS-0651,Customer 651,49,Male,18,One year,115.59,37,993.46,1,4,175,9,2080.62,0
+CUS-0652,Customer 652,61,Male,70,Month-to-month,53.23,5,696.65,0,1,242,7,3726.1,0
+CUS-0653,Customer 653,33,Female,19,One year,81.6,2,114.07,0,4,127,7,1550.4,1
+CUS-0654,Customer 654,59,Female,13,One year,106.31,43,725.31,1,4,323,9,1382.03,0
+CUS-0655,Customer 655,25,Male,36,Two year,73.64,47,127.24,1,5,141,3,2651.04,0
+CUS-0656,Customer 656,68,Female,70,Month-to-month,32.39,20,834.72,1,4,211,1,2267.3,0
+CUS-0657,Customer 657,61,Female,30,Two year,89.77,25,349.87,1,1,166,1,2693.1,1
+CUS-0658,Customer 658,44,Female,59,Month-to-month,100.71,39,516.21,0,5,84,9,5941.89,1
+CUS-0659,Customer 659,46,Female,24,Month-to-month,67.87,46,887.35,1,4,33,6,1628.88,0
+CUS-0660,Customer 660,18,Female,37,One year,55.13,37,138.11,0,1,15,9,2039.81,0
+CUS-0661,Customer 661,54,Female,20,Month-to-month,97.18,11,949.29,1,1,281,0,1943.6,0
+CUS-0662,Customer 662,42,Male,6,Month-to-month,82.89,9,385.62,1,2,79,3,497.34,0
+CUS-0663,Customer 663,58,Female,20,One year,89.16,30,235.84,1,4,345,3,1783.2,1
+CUS-0664,Customer 664,26,Male,14,One year,103.27,1,642.96,0,1,220,7,1445.78,1
+CUS-0665,Customer 665,46,Female,44,Month-to-month,80.11,17,311.13,1,3,39,8,3524.84,1
+CUS-0666,Customer 666,30,Female,21,Month-to-month,74.86,23,909.44,1,4,7,6,1572.06,1
+CUS-0667,Customer 667,32,Male,47,One year,115.98,45,396.37,1,5,1,5,5451.06,0
+CUS-0668,Customer 668,63,Male,9,Month-to-month,115.22,26,949.94,0,5,288,6,1036.98,1
+CUS-0669,Customer 669,28,Male,19,One year,109.47,31,589.2,0,3,195,5,2079.93,1
+CUS-0670,Customer 670,57,Female,26,Month-to-month,100.43,23,335.65,0,5,140,4,2611.18,1
+CUS-0671,Customer 671,69,Male,31,One year,73.09,17,147.31,1,4,318,4,2265.79,1
+CUS-0672,Customer 672,41,Female,19,Month-to-month,119.17,10,283.91,1,1,133,1,2264.23,0
+CUS-0673,Customer 673,30,Female,24,Month-to-month,27.46,20,280.36,1,5,160,4,659.04,1
+CUS-0674,Customer 674,69,Female,32,Month-to-month,64.1,9,765.67,1,3,241,4,2051.2,0
+CUS-0675,Customer 675,21,Female,17,One year,48.52,43,125.95,0,3,285,4,824.84,0
+CUS-0676,Customer 676,48,Male,14,Month-to-month,94.06,6,108.09,1,4,245,4,1316.84,0
+CUS-0677,Customer 677,49,Female,13,Month-to-month,47.0,18,981.69,1,4,82,6,611.0,0
+CUS-0678,Customer 678,33,Female,46,Month-to-month,64.11,5,249.24,0,2,92,4,2949.06,1
+CUS-0679,Customer 679,60,Female,39,One year,45.55,5,19.34,0,1,134,7,1776.45,0
+CUS-0680,Customer 680,68,Male,58,Month-to-month,94.76,33,789.07,1,2,62,4,5496.08,0
+CUS-0681,Customer 681,22,Female,46,Two year,29.94,37,689.47,0,5,316,8,1377.24,0
+CUS-0682,Customer 682,32,Male,38,Month-to-month,50.43,26,715.92,1,2,327,7,1916.34,1
+CUS-0683,Customer 683,57,Female,29,Month-to-month,31.83,32,196.23,0,1,112,6,923.07,1
+CUS-0684,Customer 684,49,Male,2,One year,32.63,4,404.78,1,1,336,9,65.26,0
+CUS-0685,Customer 685,60,Female,4,Month-to-month,112.92,4,4.24,0,1,1,7,451.68,1
+CUS-0686,Customer 686,38,Female,12,Two year,111.98,23,890.8,1,4,12,2,1343.76,0
+CUS-0687,Customer 687,63,Female,2,Two year,119.12,29,473.62,1,5,82,7,238.24,1
+CUS-0688,Customer 688,69,Male,49,Month-to-month,37.64,47,139.11,1,3,250,9,1844.36,0
+CUS-0689,Customer 689,29,Female,45,Month-to-month,107.29,47,46.23,1,2,209,0,4828.05,0
+CUS-0690,Customer 690,50,Male,47,Month-to-month,36.3,34,403.23,1,3,283,8,1706.1,0
+CUS-0691,Customer 691,34,Male,40,Month-to-month,88.73,44,298.25,0,4,129,9,3549.2,1
+CUS-0692,Customer 692,21,Female,8,Month-to-month,114.44,34,236.22,0,5,136,3,915.52,1
+CUS-0693,Customer 693,48,Female,40,Month-to-month,111.7,17,6.72,1,2,117,5,4468.0,0
+CUS-0694,Customer 694,47,Female,39,Month-to-month,32.73,2,454.82,0,3,343,7,1276.47,0
+CUS-0695,Customer 695,59,Female,56,Month-to-month,75.33,42,93.62,1,2,171,9,4218.48,1
+CUS-0696,Customer 696,37,Male,4,One year,81.96,44,40.06,1,2,149,1,327.84,1
+CUS-0697,Customer 697,27,Female,39,Month-to-month,108.74,22,555.12,1,5,5,3,4240.86,0
+CUS-0698,Customer 698,24,Female,54,One year,88.96,3,984.41,0,1,145,8,4803.84,0
+CUS-0699,Customer 699,42,Female,42,Month-to-month,110.46,22,250.36,1,5,187,4,4639.32,1
+CUS-0700,Customer 700,64,Female,67,One year,21.68,28,982.61,1,1,296,1,1452.56,0
+CUS-0701,Customer 701,20,Female,33,Month-to-month,82.96,14,244.11,1,2,231,0,2737.68,0
+CUS-0702,Customer 702,54,Female,4,Two year,109.25,33,102.72,1,1,21,6,437.0,0
+CUS-0703,Customer 703,30,Male,43,One year,36.05,4,102.28,0,5,18,7,1550.15,0
+CUS-0704,Customer 704,26,Female,42,Two year,64.26,34,779.21,1,2,313,7,2698.92,0
+CUS-0705,Customer 705,40,Male,66,One year,83.61,27,556.18,1,3,76,8,5518.26,0
+CUS-0706,Customer 706,25,Male,4,Month-to-month,104.38,11,279.27,1,3,246,4,417.52,0
+CUS-0707,Customer 707,34,Female,52,Month-to-month,75.3,31,715.9,1,1,359,2,3915.6,0
+CUS-0708,Customer 708,55,Male,56,Month-to-month,87.13,47,683.86,1,3,122,5,4879.28,0
+CUS-0709,Customer 709,24,Female,50,Month-to-month,56.7,3,855.39,1,2,162,4,2835.0,1
+CUS-0710,Customer 710,61,Male,61,One year,89.42,47,724.92,1,4,57,7,5454.62,0
+CUS-0711,Customer 711,47,Male,25,One year,118.2,8,170.43,0,1,37,1,2955.0,0
+CUS-0712,Customer 712,54,Male,59,Two year,60.66,8,100.38,1,1,192,7,3578.94,0
+CUS-0713,Customer 713,52,Male,28,One year,93.45,26,142.5,1,2,86,8,2616.6,0
+CUS-0714,Customer 714,34,Female,36,Month-to-month,56.1,24,99.15,0,5,234,0,2019.6,0
+CUS-0715,Customer 715,49,Male,3,Month-to-month,63.51,20,11.65,0,2,172,5,190.53,1
+CUS-0716,Customer 716,18,Male,26,Month-to-month,61.52,18,772.85,1,2,147,7,1599.52,1
+CUS-0717,Customer 717,61,Female,68,Month-to-month,85.01,37,965.77,1,4,315,1,5780.68,0
+CUS-0718,Customer 718,69,Female,29,Two year,111.19,44,869.03,0,4,364,9,3224.51,0
+CUS-0719,Customer 719,33,Female,54,Month-to-month,42.87,5,275.34,1,3,321,6,2314.98,0
+CUS-0720,Customer 720,50,Male,50,Month-to-month,61.71,37,462.99,1,1,107,4,3085.5,0
+CUS-0721,Customer 721,63,Male,46,One year,87.9,32,327.99,1,5,260,5,4043.4,0
+CUS-0722,Customer 722,51,Female,21,Month-to-month,40.33,45,717.88,0,5,265,6,846.93,1
+CUS-0723,Customer 723,42,Female,21,Month-to-month,117.39,34,566.36,0,1,81,8,2465.19,1
+CUS-0724,Customer 724,22,Male,54,Month-to-month,34.09,32,10.85,1,2,158,5,1840.86,1
+CUS-0725,Customer 725,39,Male,19,One year,56.92,40,993.57,1,4,86,5,1081.48,1
+CUS-0726,Customer 726,66,Female,33,Month-to-month,112.33,47,378.49,1,3,27,4,3706.89,0
+CUS-0727,Customer 727,58,Male,69,Month-to-month,60.16,46,770.82,1,2,114,8,4151.04,1
+CUS-0728,Customer 728,23,Male,13,Month-to-month,95.41,33,326.14,0,1,34,0,1240.33,0
+CUS-0729,Customer 729,44,Male,63,Two year,62.14,17,10.48,0,3,356,2,3914.82,0
+CUS-0730,Customer 730,52,Female,27,Month-to-month,79.54,43,789.28,1,3,357,6,2147.58,0
+CUS-0731,Customer 731,43,Male,14,One year,21.0,7,494.83,0,5,281,9,294.0,0
+CUS-0732,Customer 732,48,Male,68,One year,98.68,39,400.26,0,5,305,5,6710.24,0
+CUS-0733,Customer 733,23,Male,40,One year,26.25,7,169.3,1,4,358,5,1050.0,0
+CUS-0734,Customer 734,32,Male,1,One year,33.61,4,457.89,1,3,106,7,33.61,1
+CUS-0735,Customer 735,39,Female,51,Month-to-month,117.25,44,833.0,0,4,85,7,5979.75,0
+CUS-0736,Customer 736,22,Female,37,One year,47.09,15,141.02,1,4,141,1,1742.33,0
+CUS-0737,Customer 737,26,Female,37,Month-to-month,72.07,43,948.37,1,1,275,8,2666.59,0
+CUS-0738,Customer 738,41,Female,44,One year,117.41,14,25.36,1,3,343,1,5166.04,1
+CUS-0739,Customer 739,64,Male,18,One year,91.55,22,926.61,1,4,62,8,1647.9,0
+CUS-0740,Customer 740,27,Female,64,Month-to-month,30.39,3,800.54,1,1,125,2,1944.96,1
+CUS-0741,Customer 741,48,Female,2,Month-to-month,81.71,19,521.89,1,2,246,1,163.42,1
+CUS-0742,Customer 742,49,Female,35,One year,30.35,28,228.17,1,4,171,2,1062.25,0
+CUS-0743,Customer 743,64,Male,70,Two year,116.79,42,458.88,0,2,109,2,8175.3,0
+CUS-0744,Customer 744,52,Female,53,One year,109.34,16,255.81,1,5,206,5,5795.02,0
+CUS-0745,Customer 745,39,Female,63,Month-to-month,52.21,32,378.33,0,5,136,5,3289.23,1
+CUS-0746,Customer 746,46,Male,1,Month-to-month,32.0,4,626.25,1,4,83,1,32.0,1
+CUS-0747,Customer 747,44,Male,65,Month-to-month,21.14,8,207.25,1,3,280,7,1374.1,0
+CUS-0748,Customer 748,66,Male,3,Month-to-month,93.43,44,478.27,1,4,284,4,280.29,1
+CUS-0749,Customer 749,35,Female,68,Month-to-month,69.53,35,785.49,1,3,327,3,4728.04,1
+CUS-0750,Customer 750,34,Male,23,One year,55.63,3,852.09,1,1,157,0,1279.49,0
+CUS-0751,Customer 751,27,Male,37,Month-to-month,44.87,13,159.97,0,3,25,3,1660.19,0
+CUS-0752,Customer 752,54,Male,41,Two year,113.43,5,216.9,1,4,184,8,4650.63,0
+CUS-0753,Customer 753,66,Male,23,One year,51.7,6,868.53,1,2,331,5,1189.1,1
+CUS-0754,Customer 754,40,Female,45,Two year,49.07,22,877.77,1,1,194,2,2208.15,1
+CUS-0755,Customer 755,36,Female,66,Two year,44.62,19,970.27,1,4,113,5,2944.92,1
+CUS-0756,Customer 756,55,Female,4,Month-to-month,34.87,23,4.0,1,4,359,9,139.48,0
+CUS-0757,Customer 757,29,Female,11,Month-to-month,119.95,32,639.99,0,1,21,5,1319.45,0
+CUS-0758,Customer 758,23,Female,27,Month-to-month,109.43,36,460.79,0,3,184,0,2954.61,0
+CUS-0759,Customer 759,50,Male,42,Month-to-month,92.91,49,542.91,1,4,87,2,3902.22,0
+CUS-0760,Customer 760,18,Male,37,Month-to-month,110.25,10,207.23,1,5,358,6,4079.25,1
+CUS-0761,Customer 761,43,Male,60,Month-to-month,32.32,36,167.55,1,2,28,5,1939.2,0
+CUS-0762,Customer 762,22,Female,35,Two year,113.44,27,688.11,1,5,148,3,3970.4,1
+CUS-0763,Customer 763,21,Female,59,One year,84.44,16,714.25,1,4,333,1,4981.96,0
+CUS-0764,Customer 764,21,Female,66,Month-to-month,80.55,24,903.35,1,5,210,2,5316.3,1
+CUS-0765,Customer 765,37,Male,58,One year,40.25,27,531.91,1,1,331,7,2334.5,0
+CUS-0766,Customer 766,56,Male,49,Month-to-month,61.9,26,248.26,1,3,87,4,3033.1,1
+CUS-0767,Customer 767,50,Male,20,Month-to-month,52.44,24,525.98,1,4,131,1,1048.8,1
+CUS-0768,Customer 768,28,Male,22,One year,20.15,39,757.11,1,1,84,4,443.3,0
+CUS-0769,Customer 769,65,Female,49,Month-to-month,55.63,36,869.56,1,4,66,6,2725.87,1
+CUS-0770,Customer 770,34,Female,39,One year,20.34,26,758.96,1,4,234,5,793.26,0
+CUS-0771,Customer 771,27,Female,11,Two year,59.53,44,205.67,1,1,160,8,654.83,1
+CUS-0772,Customer 772,63,Male,13,Two year,79.09,5,331.12,1,5,40,7,1028.17,1
+CUS-0773,Customer 773,18,Female,55,One year,110.41,6,782.14,0,4,326,3,6072.55,0
+CUS-0774,Customer 774,65,Male,39,Month-to-month,59.0,19,595.29,1,2,267,9,2301.0,0
+CUS-0775,Customer 775,38,Male,70,Month-to-month,64.86,30,826.48,0,4,105,8,4540.2,1
+CUS-0776,Customer 776,65,Male,57,Month-to-month,51.74,20,135.82,0,4,245,5,2949.18,0
+CUS-0777,Customer 777,18,Male,12,One year,35.96,3,560.15,1,5,43,4,431.52,0
+CUS-0778,Customer 778,29,Male,48,Month-to-month,64.99,18,793.54,1,4,293,8,3119.52,1
+CUS-0779,Customer 779,63,Male,37,One year,55.92,13,815.76,1,3,18,7,2069.04,0
+CUS-0780,Customer 780,43,Male,5,Month-to-month,25.07,46,87.67,1,2,97,7,125.35,0
+CUS-0781,Customer 781,52,Female,21,Month-to-month,49.2,15,72.56,0,4,47,6,1033.2,0
+CUS-0782,Customer 782,57,Male,67,Month-to-month,79.01,10,739.33,0,5,268,4,5293.67,0
+CUS-0783,Customer 783,68,Male,48,Month-to-month,35.52,44,799.52,0,2,235,0,1704.96,0
+CUS-0784,Customer 784,37,Male,39,Two year,109.69,23,229.44,1,3,99,2,4277.91,1
+CUS-0785,Customer 785,62,Female,58,Month-to-month,59.7,26,238.01,1,5,262,9,3462.6,1
+CUS-0786,Customer 786,69,Female,10,Month-to-month,108.04,35,987.64,0,3,132,2,1080.4,0
+CUS-0787,Customer 787,35,Male,5,Month-to-month,74.81,38,714.46,0,2,224,7,374.05,0
+CUS-0788,Customer 788,42,Male,6,Month-to-month,115.3,6,631.26,0,4,354,9,691.8,1
+CUS-0789,Customer 789,40,Male,24,One year,33.35,46,196.07,1,4,259,3,800.4,0
+CUS-0790,Customer 790,41,Male,3,Two year,50.61,4,847.28,0,5,111,3,151.83,1
+CUS-0791,Customer 791,30,Female,49,Month-to-month,112.37,49,546.52,1,2,353,9,5506.13,1
+CUS-0792,Customer 792,18,Male,44,Month-to-month,105.58,41,365.31,1,1,339,9,4645.52,0
+CUS-0793,Customer 793,41,Male,43,Month-to-month,72.93,17,708.29,1,2,125,9,3135.99,1
+CUS-0794,Customer 794,36,Female,29,One year,102.68,13,121.28,1,1,335,5,2977.72,1
+CUS-0795,Customer 795,67,Female,38,Month-to-month,115.74,2,475.36,1,2,319,4,4398.12,0
+CUS-0796,Customer 796,59,Female,34,Month-to-month,112.45,49,951.28,1,2,18,6,3823.3,1
+CUS-0797,Customer 797,57,Female,2,Month-to-month,66.38,24,245.87,0,5,333,5,132.76,0
+CUS-0798,Customer 798,66,Female,52,Month-to-month,53.26,11,816.17,1,3,23,9,2769.52,1
+CUS-0799,Customer 799,62,Male,59,Month-to-month,81.98,3,50.42,0,5,131,7,4836.82,1
+CUS-0800,Customer 800,52,Male,25,One year,74.13,45,784.99,1,5,5,4,1853.25,1
+CUS-0801,Customer 801,65,Male,58,Month-to-month,91.83,30,838.24,0,1,123,2,5326.14,1
+CUS-0802,Customer 802,57,Male,22,Month-to-month,113.19,5,492.71,1,1,290,2,2490.18,0
+CUS-0803,Customer 803,37,Male,65,Month-to-month,58.0,17,609.88,1,2,295,8,3770.0,1
+CUS-0804,Customer 804,19,Female,7,Month-to-month,31.36,29,890.67,1,1,25,5,219.52,0
+CUS-0805,Customer 805,65,Male,57,Month-to-month,71.44,10,918.75,0,4,61,5,4072.08,1
+CUS-0806,Customer 806,27,Male,30,Month-to-month,99.99,10,424.16,0,5,286,7,2999.7,1
+CUS-0807,Customer 807,62,Female,58,Month-to-month,97.47,34,362.88,1,5,340,1,5653.26,0
+CUS-0808,Customer 808,31,Male,30,One year,73.51,18,899.79,1,5,149,6,2205.3,1
+CUS-0809,Customer 809,55,Female,22,Month-to-month,69.26,42,602.14,1,5,169,6,1523.72,1
+CUS-0810,Customer 810,20,Male,28,Month-to-month,65.67,49,119.31,1,4,245,4,1838.76,0
+CUS-0811,Customer 811,26,Male,53,Month-to-month,112.18,11,13.33,1,5,95,6,5945.54,1
+CUS-0812,Customer 812,46,Male,41,One year,61.41,14,610.31,1,3,66,1,2517.81,0
+CUS-0813,Customer 813,23,Female,61,Month-to-month,66.03,37,560.28,0,1,232,3,4027.83,1
+CUS-0814,Customer 814,26,Male,3,One year,86.94,38,710.37,0,3,158,8,260.82,0
+CUS-0815,Customer 815,20,Female,36,Month-to-month,99.94,42,861.62,1,5,67,4,3597.84,1
+CUS-0816,Customer 816,43,Female,33,Month-to-month,28.98,8,250.68,0,2,234,7,956.34,0
+CUS-0817,Customer 817,34,Male,70,Month-to-month,46.89,13,158.3,1,4,297,2,3282.3,1
+CUS-0818,Customer 818,52,Male,29,Month-to-month,101.59,4,96.99,1,5,184,5,2946.11,1
+CUS-0819,Customer 819,61,Female,53,Month-to-month,73.52,19,970.39,1,5,139,3,3896.56,1
+CUS-0820,Customer 820,24,Female,16,One year,91.25,6,966.11,1,3,111,5,1460.0,0
+CUS-0821,Customer 821,52,Male,2,One year,97.51,17,532.66,1,1,124,6,195.02,1
+CUS-0822,Customer 822,20,Female,61,Month-to-month,114.57,2,341.29,1,5,99,6,6988.77,0
+CUS-0823,Customer 823,69,Male,33,Month-to-month,62.07,46,358.77,1,4,259,9,2048.31,0
+CUS-0824,Customer 824,28,Male,10,Month-to-month,31.96,47,836.53,1,5,207,4,319.6,0
+CUS-0825,Customer 825,28,Female,59,Month-to-month,68.08,34,821.75,1,2,72,4,4016.72,0
+CUS-0826,Customer 826,67,Male,71,One year,59.75,24,814.92,1,1,32,5,4242.25,0
+CUS-0827,Customer 827,21,Female,69,One year,89.06,30,55.82,0,1,206,5,6145.14,0
+CUS-0828,Customer 828,58,Female,41,Two year,54.07,27,525.35,1,3,185,9,2216.87,0
+CUS-0829,Customer 829,64,Female,17,Month-to-month,46.27,49,180.75,1,3,36,1,786.59,0
+CUS-0830,Customer 830,65,Female,56,Month-to-month,106.63,36,364.62,0,2,269,9,5971.28,1
+CUS-0831,Customer 831,25,Female,17,Month-to-month,89.01,15,652.76,1,1,49,6,1513.17,1
+CUS-0832,Customer 832,65,Male,53,Two year,51.45,20,897.97,0,4,162,2,2726.85,0
+CUS-0833,Customer 833,58,Female,63,Month-to-month,32.42,10,398.26,1,2,220,2,2042.46,1
+CUS-0834,Customer 834,31,Male,20,Month-to-month,67.23,36,866.51,1,3,293,4,1344.6,1
+CUS-0835,Customer 835,44,Female,59,One year,28.97,48,838.21,1,1,231,9,1709.23,0
+CUS-0836,Customer 836,24,Female,10,Two year,47.03,26,751.2,0,3,54,8,470.3,1
+CUS-0837,Customer 837,39,Female,11,One year,97.08,48,66.89,0,1,353,9,1067.88,0
+CUS-0838,Customer 838,45,Male,65,Month-to-month,111.6,12,458.52,1,3,245,0,7254.0,0
+CUS-0839,Customer 839,51,Female,38,One year,99.17,5,358.21,1,5,10,9,3768.46,0
+CUS-0840,Customer 840,56,Female,1,One year,95.58,1,768.68,0,4,149,8,95.58,1
+CUS-0841,Customer 841,34,Male,63,Month-to-month,28.82,35,653.87,1,1,323,2,1815.66,1
+CUS-0842,Customer 842,55,Male,46,Month-to-month,71.68,21,347.71,1,4,105,2,3297.28,0
+CUS-0843,Customer 843,51,Female,30,One year,74.31,10,19.52,0,4,256,4,2229.3,0
+CUS-0844,Customer 844,60,Male,45,Month-to-month,93.65,2,266.75,0,5,249,7,4214.25,1
+CUS-0845,Customer 845,39,Male,55,Month-to-month,34.6,11,191.46,1,2,39,2,1903.0,0
+CUS-0846,Customer 846,41,Female,64,Month-to-month,72.11,12,393.47,1,1,142,2,4615.04,0
+CUS-0847,Customer 847,60,Male,27,Two year,100.62,20,142.7,1,3,112,7,2716.74,0
+CUS-0848,Customer 848,54,Male,2,Month-to-month,94.39,49,467.6,1,3,5,3,188.78,0
+CUS-0849,Customer 849,50,Female,68,Two year,86.36,4,265.44,1,2,75,4,5872.48,1
+CUS-0850,Customer 850,67,Male,22,Month-to-month,116.53,38,675.71,0,3,149,0,2563.66,0
+CUS-0851,Customer 851,43,Female,62,Month-to-month,92.82,13,605.59,1,4,90,4,5754.84,0
+CUS-0852,Customer 852,54,Female,15,Month-to-month,41.76,29,171.27,0,1,277,5,626.4,0
+CUS-0853,Customer 853,27,Male,52,Two year,61.51,16,246.33,0,2,339,5,3198.52,1
+CUS-0854,Customer 854,21,Female,23,One year,69.59,20,426.01,1,3,356,3,1600.57,0
+CUS-0855,Customer 855,62,Male,16,Month-to-month,87.0,25,390.65,0,4,22,8,1392.0,1
+CUS-0856,Customer 856,63,Female,70,Month-to-month,115.28,28,602.67,0,3,145,3,8069.6,1
+CUS-0857,Customer 857,33,Female,64,Month-to-month,90.95,34,165.76,0,1,298,5,5820.8,0
+CUS-0858,Customer 858,50,Female,43,One year,100.67,46,129.44,1,5,179,6,4328.81,0
+CUS-0859,Customer 859,62,Male,59,One year,118.71,11,492.05,0,4,286,2,7003.89,1
+CUS-0860,Customer 860,27,Male,61,One year,38.44,35,156.76,1,3,59,3,2344.84,0
+CUS-0861,Customer 861,32,Male,42,Month-to-month,81.49,13,824.45,0,2,229,0,3422.58,1
+CUS-0862,Customer 862,53,Male,30,Month-to-month,103.81,46,727.44,1,5,175,1,3114.3,0
+CUS-0863,Customer 863,19,Male,33,Month-to-month,116.68,18,997.26,1,3,245,5,3850.44,1
+CUS-0864,Customer 864,19,Male,58,Month-to-month,85.07,4,527.64,1,1,301,0,4934.06,0
+CUS-0865,Customer 865,49,Male,11,Month-to-month,48.14,26,741.45,1,2,230,5,529.54,1
+CUS-0866,Customer 866,53,Male,1,Two year,83.03,30,168.83,1,2,178,7,83.03,0
+CUS-0867,Customer 867,22,Female,71,Month-to-month,26.86,41,683.02,1,5,26,9,1907.06,0
+CUS-0868,Customer 868,62,Female,67,Month-to-month,118.1,38,978.51,1,4,121,1,7912.7,0
+CUS-0869,Customer 869,55,Male,49,Two year,105.97,30,938.9,1,3,80,3,5192.53,0
+CUS-0870,Customer 870,41,Male,1,One year,95.85,47,742.62,0,1,357,3,95.85,0
+CUS-0871,Customer 871,18,Female,61,Month-to-month,52.25,46,515.35,1,2,313,6,3187.25,1
+CUS-0872,Customer 872,50,Male,34,Month-to-month,68.37,11,310.21,0,4,61,8,2324.58,1
+CUS-0873,Customer 873,28,Female,28,One year,30.93,22,14.52,1,1,273,2,866.04,1
+CUS-0874,Customer 874,48,Female,48,Month-to-month,62.35,5,143.31,1,5,227,6,2992.8,1
+CUS-0875,Customer 875,23,Female,71,Month-to-month,73.84,10,166.63,1,3,310,8,5242.64,0
+CUS-0876,Customer 876,32,Male,45,One year,104.67,36,655.38,1,1,200,3,4710.15,0
+CUS-0877,Customer 877,26,Female,1,Month-to-month,37.67,20,131.2,1,2,238,1,37.67,0
+CUS-0878,Customer 878,32,Female,71,One year,57.11,11,705.0,1,5,184,5,4054.81,0
+CUS-0879,Customer 879,47,Female,17,Two year,29.1,31,390.38,1,4,19,3,494.7,0
+CUS-0880,Customer 880,23,Female,13,Month-to-month,31.64,41,885.39,0,5,276,3,411.32,0
+CUS-0881,Customer 881,63,Female,61,One year,68.51,21,886.85,1,4,308,1,4179.11,0
+CUS-0882,Customer 882,32,Female,9,Month-to-month,82.3,24,777.21,1,1,94,0,740.7,0
+CUS-0883,Customer 883,26,Female,19,Two year,25.35,11,267.9,1,2,358,6,481.65,1
+CUS-0884,Customer 884,52,Female,10,One year,64.3,24,104.66,1,4,14,9,643.0,1
+CUS-0885,Customer 885,43,Female,59,One year,109.08,38,738.33,0,4,278,7,6435.72,0
+CUS-0886,Customer 886,37,Female,63,One year,34.01,31,646.45,0,2,197,5,2142.63,1
+CUS-0887,Customer 887,64,Male,24,One year,33.39,7,882.67,1,2,323,0,801.36,0
+CUS-0888,Customer 888,58,Male,69,Month-to-month,28.35,28,409.93,1,3,335,4,1956.15,0
+CUS-0889,Customer 889,22,Female,71,One year,109.68,20,570.73,1,1,339,6,7787.28,0
+CUS-0890,Customer 890,18,Female,55,Month-to-month,63.53,21,424.96,1,2,10,1,3494.15,1
+CUS-0891,Customer 891,65,Male,50,Month-to-month,87.24,2,160.84,1,3,52,4,4362.0,0
+CUS-0892,Customer 892,67,Male,67,Month-to-month,65.61,1,264.19,1,5,82,5,4395.87,0
+CUS-0893,Customer 893,27,Male,23,One year,117.36,47,663.7,1,5,289,2,2699.28,1
+CUS-0894,Customer 894,44,Male,31,Month-to-month,72.73,1,74.63,1,3,177,4,2254.63,1
+CUS-0895,Customer 895,53,Male,53,Month-to-month,41.77,9,753.87,1,3,253,2,2213.81,1
+CUS-0896,Customer 896,22,Male,12,One year,52.85,36,339.2,1,5,255,4,634.2,1
+CUS-0897,Customer 897,44,Male,9,Month-to-month,24.53,4,714.64,1,2,94,0,220.77,0
+CUS-0898,Customer 898,47,Female,29,Month-to-month,25.68,3,570.99,1,5,204,7,744.72,1
+CUS-0899,Customer 899,58,Female,14,Month-to-month,100.3,14,970.62,1,4,113,9,1404.2,0
+CUS-0900,Customer 900,31,Male,57,Month-to-month,89.3,5,445.03,1,4,250,2,5090.1,0
+CUS-0901,Customer 901,58,Female,70,Month-to-month,58.6,47,600.1,1,4,102,3,4102.0,0
+CUS-0902,Customer 902,19,Female,36,Two year,118.23,10,97.7,1,2,209,8,4256.28,0
+CUS-0903,Customer 903,27,Female,22,Month-to-month,90.46,20,698.69,1,3,333,1,1990.12,1
+CUS-0904,Customer 904,62,Female,16,Month-to-month,24.93,31,486.08,1,4,284,6,398.88,1
+CUS-0905,Customer 905,19,Male,65,Month-to-month,23.39,36,486.14,1,2,228,8,1520.35,1
+CUS-0906,Customer 906,28,Female,70,Month-to-month,106.65,15,315.48,1,5,314,5,7465.5,1
+CUS-0907,Customer 907,38,Male,7,One year,84.52,3,649.01,0,5,157,4,591.64,0
+CUS-0908,Customer 908,45,Female,3,One year,35.05,39,539.59,1,3,171,0,105.15,0
+CUS-0909,Customer 909,41,Female,4,Month-to-month,31.78,31,913.28,1,1,291,1,127.12,0
+CUS-0910,Customer 910,67,Female,6,Month-to-month,104.38,13,887.25,1,1,291,7,626.28,0
+CUS-0911,Customer 911,31,Female,42,One year,119.46,29,498.52,0,2,146,3,5017.32,0
+CUS-0912,Customer 912,53,Male,51,One year,48.23,26,878.27,0,4,315,5,2459.73,0
+CUS-0913,Customer 913,64,Female,14,Month-to-month,93.66,43,82.86,1,2,362,7,1311.24,0
+CUS-0914,Customer 914,24,Female,57,Two year,97.3,44,384.55,1,1,39,4,5546.1,0
+CUS-0915,Customer 915,48,Female,36,Month-to-month,24.32,10,11.48,0,3,157,8,875.52,1
+CUS-0916,Customer 916,39,Male,41,Month-to-month,29.43,5,695.85,1,3,289,2,1206.63,1
+CUS-0917,Customer 917,36,Male,29,Month-to-month,20.34,27,606.22,1,3,153,3,589.86,0
+CUS-0918,Customer 918,49,Male,29,One year,89.38,22,937.5,1,4,169,5,2592.02,1
+CUS-0919,Customer 919,27,Male,56,Month-to-month,85.83,22,425.95,0,2,274,8,4806.48,0
+CUS-0920,Customer 920,44,Female,8,One year,116.63,13,652.87,0,1,345,9,933.04,0
+CUS-0921,Customer 921,33,Female,53,One year,91.91,31,680.93,0,4,283,6,4871.23,1
+CUS-0922,Customer 922,29,Female,11,One year,104.19,8,655.77,1,3,308,2,1146.09,0
+CUS-0923,Customer 923,25,Male,34,Month-to-month,99.09,21,413.67,0,3,70,0,3369.06,0
+CUS-0924,Customer 924,48,Male,26,Month-to-month,93.04,41,18.72,1,2,89,7,2419.04,0
+CUS-0925,Customer 925,46,Male,65,One year,59.16,20,271.52,1,5,16,0,3845.4,0
+CUS-0926,Customer 926,43,Female,68,Two year,119.81,31,622.83,1,2,145,2,8147.08,0
+CUS-0927,Customer 927,30,Male,55,Month-to-month,67.35,18,905.68,0,2,42,3,3704.25,0
+CUS-0928,Customer 928,25,Female,54,Month-to-month,56.02,5,629.97,0,2,351,1,3025.08,0
+CUS-0929,Customer 929,65,Male,29,Month-to-month,111.49,45,555.87,1,1,169,1,3233.21,0
+CUS-0930,Customer 930,62,Female,21,Two year,112.33,49,445.84,1,3,42,3,2358.93,0
+CUS-0931,Customer 931,29,Female,27,Month-to-month,61.78,2,764.28,1,3,287,8,1668.06,0
+CUS-0932,Customer 932,30,Male,12,Month-to-month,97.04,9,685.12,1,2,272,5,1164.48,0
+CUS-0933,Customer 933,50,Male,26,Two year,79.71,29,744.93,1,4,202,0,2072.46,0
+CUS-0934,Customer 934,62,Male,20,One year,102.73,24,244.45,1,5,159,8,2054.6,0
+CUS-0935,Customer 935,24,Male,39,Month-to-month,43.2,43,868.64,0,3,3,7,1684.8,1
+CUS-0936,Customer 936,58,Female,19,Month-to-month,65.01,1,150.07,1,5,321,0,1235.19,0
+CUS-0937,Customer 937,37,Female,15,Month-to-month,43.41,44,135.85,0,2,266,7,651.15,0
+CUS-0938,Customer 938,22,Female,20,Month-to-month,57.73,30,983.46,1,5,272,6,1154.6,1
+CUS-0939,Customer 939,57,Male,66,Month-to-month,98.36,49,284.08,1,1,171,1,6491.76,0
+CUS-0940,Customer 940,31,Male,43,Two year,90.91,6,594.47,1,2,338,0,3909.13,0
+CUS-0941,Customer 941,27,Female,11,Month-to-month,52.78,17,784.01,1,4,228,1,580.58,0
+CUS-0942,Customer 942,28,Female,27,Month-to-month,119.57,19,362.34,1,2,255,2,3228.39,1
+CUS-0943,Customer 943,27,Male,47,Month-to-month,45.24,32,848.05,1,2,27,4,2126.28,0
+CUS-0944,Customer 944,63,Male,31,One year,105.34,26,351.51,1,2,32,1,3265.54,0
+CUS-0945,Customer 945,33,Female,48,Two year,64.05,33,13.48,1,1,22,0,3074.4,0
+CUS-0946,Customer 946,23,Male,68,One year,25.47,33,159.23,1,2,315,2,1731.96,0
+CUS-0947,Customer 947,36,Female,18,Month-to-month,111.84,33,914.66,0,1,54,9,2013.12,1
+CUS-0948,Customer 948,46,Female,16,Month-to-month,68.43,39,165.53,1,5,214,7,1094.88,1
+CUS-0949,Customer 949,40,Male,55,Month-to-month,92.83,45,606.98,0,3,4,4,5105.65,0
+CUS-0950,Customer 950,26,Female,13,One year,47.43,7,308.98,1,2,357,8,616.59,1
+CUS-0951,Customer 951,53,Female,11,Month-to-month,92.05,7,306.9,1,2,289,7,1012.55,0
+CUS-0952,Customer 952,37,Male,34,Month-to-month,112.92,39,393.45,1,3,345,8,3839.28,1
+CUS-0953,Customer 953,38,Female,9,Month-to-month,78.43,17,874.4,1,3,223,6,705.87,0
+CUS-0954,Customer 954,34,Male,65,One year,49.83,15,678.84,1,1,111,1,3238.95,0
+CUS-0955,Customer 955,56,Female,67,Month-to-month,80.84,27,893.32,1,4,264,4,5416.28,1
+CUS-0956,Customer 956,24,Male,20,Two year,35.52,15,304.07,1,4,117,8,710.4,1
+CUS-0957,Customer 957,42,Female,44,Month-to-month,60.82,31,781.06,1,1,135,4,2676.08,1
+CUS-0958,Customer 958,39,Male,69,Month-to-month,30.83,16,795.25,1,3,292,2,2127.27,0
+CUS-0959,Customer 959,41,Female,66,One year,43.34,31,260.01,1,1,213,7,2860.44,0
+CUS-0960,Customer 960,35,Female,64,Month-to-month,31.72,10,289.42,1,2,226,1,2030.08,1
+CUS-0961,Customer 961,30,Male,15,One year,91.85,27,936.03,1,3,163,6,1377.75,0
+CUS-0962,Customer 962,56,Female,50,Month-to-month,78.04,6,205.82,0,4,106,7,3902.0,0
+CUS-0963,Customer 963,51,Female,68,Month-to-month,58.71,35,545.84,1,1,310,6,3992.28,1
+CUS-0964,Customer 964,54,Male,63,Month-to-month,71.11,37,585.87,1,2,116,0,4479.93,1
+CUS-0965,Customer 965,54,Female,63,Month-to-month,30.21,4,513.29,1,4,245,2,1903.23,0
+CUS-0966,Customer 966,25,Female,3,Month-to-month,74.43,10,819.48,1,3,129,0,223.29,0
+CUS-0967,Customer 967,51,Female,4,Two year,28.3,6,952.95,1,2,180,4,113.2,0
+CUS-0968,Customer 968,43,Male,6,One year,67.55,31,650.31,0,1,308,6,405.3,0
+CUS-0969,Customer 969,45,Male,64,Month-to-month,90.38,19,153.09,1,3,228,9,5784.32,0
+CUS-0970,Customer 970,27,Female,8,One year,27.09,44,276.63,1,1,216,9,216.72,0
+CUS-0971,Customer 971,54,Female,23,Month-to-month,92.29,42,685.77,1,3,343,0,2122.67,0
+CUS-0972,Customer 972,31,Female,65,Month-to-month,109.97,48,266.28,1,4,347,4,7148.05,0
+CUS-0973,Customer 973,30,Female,43,Month-to-month,74.1,6,943.49,0,5,247,1,3186.3,0
+CUS-0974,Customer 974,54,Female,45,One year,21.17,19,329.98,1,3,42,2,952.65,0
+CUS-0975,Customer 975,56,Male,66,Month-to-month,52.75,39,815.51,1,5,28,0,3481.5,0
+CUS-0976,Customer 976,43,Male,45,Month-to-month,55.29,29,304.12,0,1,95,3,2488.05,1
+CUS-0977,Customer 977,20,Female,67,Month-to-month,54.15,23,386.58,1,1,66,4,3628.05,0
+CUS-0978,Customer 978,20,Male,8,One year,62.11,21,699.58,1,1,362,3,496.88,1
+CUS-0979,Customer 979,65,Female,68,Month-to-month,85.37,24,351.66,0,3,45,6,5805.16,0
+CUS-0980,Customer 980,57,Male,43,One year,48.67,37,908.98,1,1,246,9,2092.81,0
+CUS-0981,Customer 981,18,Male,2,Month-to-month,117.22,27,326.23,1,5,132,7,234.44,1
+CUS-0982,Customer 982,35,Female,16,One year,86.86,22,705.25,1,3,296,6,1389.76,0
+CUS-0983,Customer 983,19,Male,29,One year,44.4,1,901.86,1,1,81,6,1287.6,0
+CUS-0984,Customer 984,35,Male,24,Two year,81.93,10,636.06,0,4,319,1,1966.32,1
+CUS-0985,Customer 985,28,Female,19,Two year,74.86,45,185.07,1,3,170,0,1422.34,0
+CUS-0986,Customer 986,38,Female,2,One year,116.87,5,292.93,1,4,242,6,233.74,0
+CUS-0987,Customer 987,21,Male,16,Two year,57.88,23,984.43,1,4,42,2,926.08,0
+CUS-0988,Customer 988,48,Male,17,One year,72.56,12,601.5,1,2,141,6,1233.52,0
+CUS-0989,Customer 989,20,Male,70,Month-to-month,77.0,48,456.75,1,5,47,8,5390.0,0
+CUS-0990,Customer 990,45,Male,52,One year,75.42,39,49.62,0,1,231,6,3921.84,0
+CUS-0991,Customer 991,59,Male,53,Month-to-month,40.27,8,244.0,0,2,124,8,2134.31,1
+CUS-0992,Customer 992,59,Male,1,Month-to-month,49.27,46,909.74,0,1,116,8,49.27,0
+CUS-0993,Customer 993,63,Male,1,Month-to-month,23.06,38,174.51,1,2,90,6,23.06,0
+CUS-0994,Customer 994,66,Male,46,One year,46.31,49,739.77,1,2,270,3,2130.26,0
+CUS-0995,Customer 995,29,Male,52,One year,54.95,16,616.17,1,1,247,7,2857.4,0
+CUS-0996,Customer 996,38,Female,49,One year,66.6,27,895.63,1,5,283,3,3263.4,0
+CUS-0997,Customer 997,26,Female,27,One year,40.74,38,333.38,1,3,362,3,1099.98,1
+CUS-0998,Customer 998,55,Female,34,Two year,58.73,41,295.39,1,1,1,4,1996.82,0
+CUS-0999,Customer 999,24,Male,38,One year,106.08,27,132.39,1,5,212,7,4031.04,0
+CUS-1000,Customer 1000,53,Female,1,Month-to-month,108.9,18,46.47,1,5,355,1,108.9,1
